@@ -1,0 +1,99 @@
+\hypertarget{class_diff_match_patch_1_1_diff}{}\section{Diff\+Match\+Patch.\+Diff Class Reference}
+\label{class_diff_match_patch_1_1_diff}\index{Diff\+Match\+Patch.\+Diff@{Diff\+Match\+Patch.\+Diff}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_diff_match_patch_1_1_diff_a1b5f04a4e376dda3af8a4f38f5b01826}{Diff} (\hyperlink{namespace_diff_match_patch_ad70dddf4b74fd84a225659bb55739feb}{Operation} \hyperlink{class_diff_match_patch_1_1_diff_ae5a0db887ce3e79bd6cc180c8a15296f}{operation}, string \hyperlink{class_diff_match_patch_1_1_diff_a8621592a1b31db7c21d605e50e1f558a}{text})
+\item 
+override string \hyperlink{class_diff_match_patch_1_1_diff_a8c8546902ac4045456962ec05c3c04b3}{To\+String} ()
+\item 
+override bool \hyperlink{class_diff_match_patch_1_1_diff_aea9211fb4a43e0d1378b86fab7fe02ac}{Equals} (Object obj)
+\item 
+bool \hyperlink{class_diff_match_patch_1_1_diff_a973798b53356a5119755dc075b81352c}{Equals} (\hyperlink{class_diff_match_patch_1_1_diff}{Diff} obj)
+\item 
+override int \hyperlink{class_diff_match_patch_1_1_diff_a7fb5c74c39702d9f4223bfbb26542a7a}{Get\+Hash\+Code} ()
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{namespace_diff_match_patch_ad70dddf4b74fd84a225659bb55739feb}{Operation} \hyperlink{class_diff_match_patch_1_1_diff_ae5a0db887ce3e79bd6cc180c8a15296f}{operation}
+\item 
+string \hyperlink{class_diff_match_patch_1_1_diff_a8621592a1b31db7c21d605e50e1f558a}{text}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class representing one diff operation. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_diff_match_patch_1_1_diff_a1b5f04a4e376dda3af8a4f38f5b01826}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!Diff@{Diff}}
+\index{Diff@{Diff}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{Diff(\+Operation operation, string text)}]{\setlength{\rightskip}{0pt plus 5cm}Diff\+Match\+Patch.\+Diff.\+Diff (
+\begin{DoxyParamCaption}
+\item[{{\bf Operation}}]{operation, }
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1_diff_a1b5f04a4e376dda3af8a4f38f5b01826}
+Constructor. Initializes the diff with the provided values. 
+\begin{DoxyParams}{Parameters}
+{\em operation} & One of I\+N\+S\+E\+R\+T, D\+E\+L\+E\+T\+E or E\+Q\+U\+A\+L. \\
+\hline
+{\em text} & The text being applied. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_diff_match_patch_1_1_diff_aea9211fb4a43e0d1378b86fab7fe02ac}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!Equals@{Equals}}
+\index{Equals@{Equals}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{Equals(\+Object obj)}]{\setlength{\rightskip}{0pt plus 5cm}override bool Diff\+Match\+Patch.\+Diff.\+Equals (
+\begin{DoxyParamCaption}
+\item[{Object}]{obj}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1_diff_aea9211fb4a43e0d1378b86fab7fe02ac}
+Is this \hyperlink{class_diff_match_patch_1_1_diff}{Diff} equivalent to another \hyperlink{class_diff_match_patch_1_1_diff}{Diff}? 
+\begin{DoxyParams}{Parameters}
+{\em d} & Another \hyperlink{class_diff_match_patch_1_1_diff}{Diff} to compare against. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true or false. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1_diff_a973798b53356a5119755dc075b81352c}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!Equals@{Equals}}
+\index{Equals@{Equals}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{Equals(\+Diff obj)}]{\setlength{\rightskip}{0pt plus 5cm}bool Diff\+Match\+Patch.\+Diff.\+Equals (
+\begin{DoxyParamCaption}
+\item[{{\bf Diff}}]{obj}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1_diff_a973798b53356a5119755dc075b81352c}
+\hypertarget{class_diff_match_patch_1_1_diff_a7fb5c74c39702d9f4223bfbb26542a7a}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!Get\+Hash\+Code@{Get\+Hash\+Code}}
+\index{Get\+Hash\+Code@{Get\+Hash\+Code}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{Get\+Hash\+Code()}]{\setlength{\rightskip}{0pt plus 5cm}override int Diff\+Match\+Patch.\+Diff.\+Get\+Hash\+Code (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1_diff_a7fb5c74c39702d9f4223bfbb26542a7a}
+\hypertarget{class_diff_match_patch_1_1_diff_a8c8546902ac4045456962ec05c3c04b3}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!To\+String@{To\+String}}
+\index{To\+String@{To\+String}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{To\+String()}]{\setlength{\rightskip}{0pt plus 5cm}override string Diff\+Match\+Patch.\+Diff.\+To\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1_diff_a8c8546902ac4045456962ec05c3c04b3}
+Display a human-\/readable version of this \hyperlink{class_diff_match_patch_1_1_diff}{Diff}. \begin{DoxyReturn}{Returns}
+text version. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_diff_match_patch_1_1_diff_ae5a0db887ce3e79bd6cc180c8a15296f}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!operation@{operation}}
+\index{operation@{operation}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{operation}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Operation} Diff\+Match\+Patch.\+Diff.\+operation}\label{class_diff_match_patch_1_1_diff_ae5a0db887ce3e79bd6cc180c8a15296f}
+\hypertarget{class_diff_match_patch_1_1_diff_a8621592a1b31db7c21d605e50e1f558a}{}\index{Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}!text@{text}}
+\index{text@{text}!Diff\+Match\+Patch\+::\+Diff@{Diff\+Match\+Patch\+::\+Diff}}
+\subsubsection[{text}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+Diff.\+text}\label{class_diff_match_patch_1_1_diff_a8621592a1b31db7c21d605e50e1f558a}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Helper\+Classes/\hyperlink{_diff_match_patch_8cs}{Diff\+Match\+Patch.\+cs}\end{DoxyCompactItemize}

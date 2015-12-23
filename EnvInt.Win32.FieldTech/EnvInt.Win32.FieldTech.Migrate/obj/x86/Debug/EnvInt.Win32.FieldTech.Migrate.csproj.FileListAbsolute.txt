@@ -1,0 +1,38 @@
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Migrate.exe.config
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.csprojResolveAssemblyReference.cache
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.Controls.SQLDataEditor.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.Controls.WebReportViewer.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.FormMain.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.Forms.CreateLocalDatabase.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.Forms.FormConnectionManager.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.Forms.FormRecipeManager.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.Properties.Resources.resources
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.csproj.GenerateResource.Cache
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\FastColoredTextBox.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\System.Data.SQLite.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\fbembed.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\icudt30.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\icuin30.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\icuuc30.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Recipes\stock_leakdas_recipe.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Recipes\TaggedComponent LeakDAS.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\System.Data.SQLite.Linq.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Report Templates\Ei_DefaultReport.css
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Report Templates\Ei_DefaultReport.htm
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Report Templates\Ei_DefaultReport\Ei_Logo.jpg
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Report Templates\Ei_DefaultReport\facebook.png
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Report Templates\Ei_DefaultReport\linkedin.png
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\Report Templates\Ei_DefaultReport\twitter.png
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\SQLite.Interop.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Migrate.exe
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Migrate.pdb
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Common.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Data.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\ClosedXML.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\DocumentFormat.OpenXml.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Common.pdb
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\EnvInt.Win32.FieldTech.Data.pdb
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\bin\Debug\ClosedXML.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.exe
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Migrate\obj\x86\Debug\EnvInt.Win32.FieldTech.Migrate.pdb

@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<DatabaseRecipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TableList>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Tables" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Tables">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TableName" type="xs:string" minOccurs="0" />
+                  <xs:element name="ImportFromTarget" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="SourceConnectionString" type="xs:string" minOccurs="0" />
+                  <xs:element name="SourceDatabaseType" type="xs:string" minOccurs="0" />
+                  <xs:element name="LastRefresh" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="SQL" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <DocumentElement>
+        <Tables diffgr:id="Tables1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+          <TableName>Chemical</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM Chemical</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+          <TableName>ChemicalState</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ChemicalState</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+          <TableName>ComplianceGroup</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComplianceGroup</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+          <TableName>ComplianceRule</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComplianceRule</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+          <TableName>ComponentBatch</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentBatch</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+          <TableName>ComponentCategory</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentCategory</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+          <TableName>ComponentClass</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentClass</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+          <TableName>ComponentConditionCode</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentConditionCode</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+          <TableName>RuleDefinition</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM RuleDefinition</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables10" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+          <TableName>ComponentExemption</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentExemption</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables11" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+          <TableName>ComponentLastInspection</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentLastInspection</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables12" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+          <TableName>ComponentPressureService</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentPressureService</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables13" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+          <TableName>ComponentRepairCode</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentRepairCode</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables14" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+          <TableName>ComponentStatus</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentStatus</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables15" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+          <TableName>ComponentStream</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentStream</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables16" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+          <TableName>Frequency</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM Frequency</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables17" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+          <TableName>LDARUser</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM LDARUser</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables18" msdata:rowOrder="17" diffgr:hasChanges="inserted">
+          <TableName>LocationBuilding</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM LocationBuilding</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables19" msdata:rowOrder="18" diffgr:hasChanges="inserted">
+          <TableName>LocationPlant</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM LocationPlant</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables20" msdata:rowOrder="19" diffgr:hasChanges="inserted">
+          <TableName>Manufacturer</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM Manufacturer</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables21" msdata:rowOrder="20" diffgr:hasChanges="inserted">
+          <TableName>MonitorTypes</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM MonitorTypes</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables22" msdata:rowOrder="21" diffgr:hasChanges="inserted">
+          <TableName>OutofServiceCode</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM OutofServiceCode</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables23" msdata:rowOrder="22" diffgr:hasChanges="inserted">
+          <TableName>Regulation</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM Regulation</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables24" msdata:rowOrder="23" diffgr:hasChanges="inserted">
+          <TableName>ProcessUnit</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ProcessUnit</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables25" msdata:rowOrder="24" diffgr:hasChanges="inserted">
+          <TableName>TestType</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM TestType</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables26" msdata:rowOrder="25" diffgr:hasChanges="inserted">
+          <TableName>Component</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM Component</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables27" msdata:rowOrder="26" diffgr:hasChanges="inserted">
+          <TableName>ComponentLastInsRule</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentLastInsRule</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables28" msdata:rowOrder="27" diffgr:hasChanges="inserted">
+          <TableName>ComponentReason</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentReason</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables29" msdata:rowOrder="28" diffgr:hasChanges="inserted">
+          <TableName>ComponentType</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentType</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables30" msdata:rowOrder="29" diffgr:hasChanges="inserted">
+          <TableName>ComponentRuleSet</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM ComponentRuleSet</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables31" msdata:rowOrder="30" diffgr:hasChanges="inserted">
+          <TableName>WorkRequest</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM WorkRequest</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables32" msdata:rowOrder="31" diffgr:hasChanges="inserted">
+          <TableName>LocationArea</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM LocationArea</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables33" msdata:rowOrder="32" diffgr:hasChanges="inserted">
+          <TableName>LocationDepartment</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM LocationDepartment</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables34" msdata:rowOrder="33" diffgr:hasChanges="inserted">
+          <TableName>DatabaseVersion</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT * FROM DatabaseVersion</SQL>
+        </Tables>
+      </DocumentElement>
+    </diffgr:diffgram>
+  </TableList>
+  <ViewList>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Views" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Views">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ViewName" type="xs:string" minOccurs="0" />
+                  <xs:element name="SQL" type="xs:string" minOccurs="0" />
+                  <xs:element name="IsQCQuery" type="xs:boolean" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <DocumentElement>
+        <Views diffgr:id="Views1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+          <ViewName>QUERY_Component</ViewName>
+          <SQL>CREATE VIEW QUERY_Component AS SELECT Component.ComponentID, Component.PlantID, LocationPlant.PlantDescription, Component.ProcessUnitID, ProcessUnit.UnitDescription, Component.AreaID, LocationArea.AreaDescription, Component.BuildingID, LocationBuilding.BuildingDescription, Component.DepartmentID, LocationDepartment.DepartmentDescription, Component.Floor, Component.ComponentTag, Component.Drawing, Component.ComponentClassID, ComponentClass.ComponentClass, ComponentClass.ClassDescription, ComponentClass.MarsComponentClass, Component.ComponentTypeID, ComponentType.ComponentType, ComponentType.TypeDescription, Component.LocationDescription, Component.ComponentCategoryID, ComponentCategory.CategoryCode, ComponentCategory.CategoryDescription, Component.ComponentReasonID, ComponentReason.ComponentReason AS CategoryReason, ComponentReason.ReasonDescription, Component.Property, Component.NumberofPoints, Component.[Size], Component.OutofServiceCodeID, OutofServiceCode.OOSCode, OutofServiceCode.OOSDescription, Component.DateReturnedtoService, Component.Status, ComponentStatus.StatusDescription, Component.StatusDate, Component.ReasonforStatus, Component.DateAdded, Component.FITRouteID, Component.FITRouteSequence, Component.ManufacturerID, Manufacturer.ManufacturerCode, Manufacturer.ProductDescription AS ManufacturerDescription, Component.ComponentBatchID, ComponentBatch.ComponentBatch, ComponentBatch.ComponentBatchDescription AS BatchDescription, Component.PressureServiceID, ComponentPressureService.PressureService, ComponentPressureService.ServiceDescription, Component.ComponentStreamID, ComponentStream.ComponentStream, ComponentStream.StreamDescription, Component.ChemicalStateID, ChemicalState.ChemicalState, ChemicalState.StateDescription, Component.UserGroup1, Component.UserGroup2, Component.UserGroup3, Component.UserGroup4, Component.UserGroup5, Component.ComponentDesignation, Component.ComponentLDASTag FROM Component INNER JOIN ProcessUnit ON Component.ProcessUnitID = ProcessUnit.ProcessUnitID INNER JOIN LocationPlant ON Component.PlantID = LocationPlant.PlantID INNER JOIN ComponentClass ON Component.ComponentClassID = ComponentClass.ComponentClassID INNER JOIN ComponentStatus ON Component.Status = ComponentStatus.StatusID LEFT OUTER JOIN ChemicalState ON Component.ChemicalStateID = ChemicalState.ChemicalStateID LEFT OUTER JOIN ComponentStream ON Component.ComponentStreamID = ComponentStream.ComponentStreamID LEFT OUTER JOIN ComponentPressureService ON Component.PressureServiceID = ComponentPressureService.PressureServiceID LEFT OUTER JOIN ComponentBatch ON Component.ComponentBatchID = ComponentBatch.ComponentBatchID LEFT OUTER JOIN Manufacturer ON Component.ManufacturerID = Manufacturer.ManufacturerID LEFT OUTER JOIN OutofServiceCode ON Component.OutofServiceCodeID = OutofServiceCode.OOSCodeID LEFT OUTER JOIN ComponentReason ON Component.ComponentReasonID = ComponentReason.ComponentReasonID LEFT OUTER JOIN ComponentCategory ON Component.ComponentCategoryID = ComponentCategory.ComponentCategoryID LEFT OUTER JOIN ComponentType ON Component.ComponentTypeID = ComponentType.ComponentTypeID LEFT OUTER JOIN LocationDepartment ON Component.DepartmentID = LocationDepartment.DepartmentID LEFT OUTER JOIN LocationBuilding ON Component.BuildingID = LocationBuilding.BuildingID LEFT OUTER JOIN LocationArea ON Component.AreaID = LocationArea.AreaID;</SQL>
+          <IsQCQuery>true</IsQCQuery>
+        </Views>
+        <Views diffgr:id="Views2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+          <ViewName>QUERY_ComponentLastInspection</ViewName>
+          <SQL>CREATE VIEW QUERY_ComponentLastInspection AS SELECT ComponentLastInspection.ComponentLastInspectionID, ComponentLastInspection.ComponentID, ComponentLastInspection.ResponseFactor, ComponentLastInspection.PlantID, LocationPlant.PlantDescription, ComponentLastInspection.AreaID, LocationArea.AreaDescription, ComponentLastInspection.DepartmentID, LocationDepartment.DepartmentDescription, ComponentLastInspection.BuildingID, LocationBuilding.BuildingDescription, ComponentLastInspection.Floor, ComponentLastInspection.ProcessUnitID, ProcessUnit.UnitDescription, ComponentLastInspection.ComponentBatchID, ComponentBatch.ComponentBatch, ComponentBatch.ComponentBatchDescription, ComponentLastInspection.Location, ComponentLastInspection.Property, ComponentLastInspection.Drawing, ComponentLastInspection.ComponentTag, ComponentLastInspection.NumberofPoints, ComponentLastInspection.ComponentClassID, ComponentClass.ComponentClass, ComponentClass.ClassDescription, ComponentClass.MarsComponentClass, ComponentLastInspection.ComponentTypeID, ComponentType.ComponentType, ComponentType.TypeDescription, ComponentLastInspection.ManufacturerID, Manufacturer.ManufacturerCode, Manufacturer.ProductDescription AS ManufacturerDescription, ComponentLastInspection.[Size], ComponentLastInspection.PressureServiceID, ComponentPressureService.PressureService, ComponentPressureService.ServiceDescription, ComponentLastInspection.ChemicalStateID, ChemicalState.ChemicalState, ChemicalState.StateDescription, ComponentLastInspection.ComponentStreamID, ComponentStream.ComponentStream, ComponentStream.StreamDescription, ComponentLastInspection.OOSCodeID, OutofServiceCode.OOSCode, OutofServiceCode.OOSDescription, ComponentLastInspection.ReturntoService, ComponentLastInspection.SensoryVisualResult, ComponentLastInspection.MaximumAllowed, ComponentLastInspection.CalibrationID, ComponentLastInspection.Tested, ComponentLastInspection.Uploaded, ComponentLastInspection.NewRecord, ComponentLastInspection.NewRoute, ComponentLastInspection.Edited, ComponentLastInspection.Deleted, ComponentLastInspection.DeleteReason, ComponentLastInspection.DeleteDate, ComponentLastInspection.WorkOrder, ComponentLastInspection.ErrorText, ComponentLastInspection.FITRouteSequence, ComponentLastInspection.RecordAdded, ComponentLastInspection.InspectionDate, ComponentLastInspection.InspectionBackground, ComponentLastInspection.InspectionMaximum, ComponentLastInspection.M21Results, ComponentLastInspection.InspectionRepair, ComponentLastInspection.InspectionNotes, ComponentLastInspection.Inspector, ComponentLastInspection.Instrument, ComponentLastInspection.RetestDate, ComponentLastInspection.ComponentCategoryID, ComponentCategory.CategoryCode, ComponentCategory.CategoryDescription, ComponentLastInspection.ComponentReasonID, ComponentReason.ComponentReason AS CategoryReason, ComponentReason.ReasonDescription, ComponentLastInspection.UserGroup1, ComponentLastInspection.UserGroup2, ComponentLastInspection.UserGroup3, ComponentLastInspection.UserGroup4, ComponentLastInspection.UserGroup5, ComponentLastInspection.RepairedBy, ComponentLastInspection.Errors FROM ComponentLastInspection LEFT OUTER JOIN OutofServiceCode ON OutofServiceCode.OOSCodeID = ComponentLastInspection.OOSCodeID LEFT OUTER JOIN ComponentType ON ComponentType.ComponentTypeID = ComponentLastInspection.ComponentTypeID LEFT OUTER JOIN ComponentClass ON ComponentLastInspection.ComponentClassID = ComponentClass.ComponentClassID LEFT OUTER JOIN Manufacturer ON ComponentLastInspection.ManufacturerID = Manufacturer.ManufacturerID LEFT OUTER JOIN ComponentStream ON ComponentLastInspection.ComponentStreamID = ComponentStream.ComponentStreamID LEFT OUTER JOIN ComponentReason ON ComponentLastInspection.ComponentReasonID = ComponentReason.ComponentReasonID AND ComponentType.ComponentTypeID = ComponentLastInspection.ComponentTypeID LEFT OUTER JOIN ComponentPressureService ON ComponentLastInspection.PressureServiceID = ComponentPressureService.PressureServiceID LEFT OUTER JOIN ProcessUnit ON ComponentLastInspection.ProcessUnitID = ProcessUnit.ProcessUnitID LEFT OUTER JOIN ComponentCategory ON ComponentLastInspection.ComponentCategoryID = ComponentCategory.ComponentCategoryID LEFT OUTER JOIN ChemicalState ON ComponentLastInspection.ChemicalStateID = ChemicalState.ChemicalStateID LEFT OUTER JOIN LocationDepartment ON ComponentLastInspection.DepartmentID = LocationDepartment.DepartmentID LEFT OUTER JOIN ComponentBatch ON ComponentLastInspection.ComponentBatchID = ComponentBatch.ComponentBatchID LEFT OUTER JOIN LocationBuilding ON ComponentLastInspection.BuildingID = LocationBuilding.BuildingID LEFT OUTER JOIN LocationArea ON ComponentLastInspection.AreaID = LocationArea.AreaID LEFT OUTER JOIN LocationPlant ON ComponentLastInspection.PlantID = LocationPlant.PlantID</SQL>
+          <IsQCQuery>true</IsQCQuery>
+        </Views>
+        <Views diffgr:id="Views3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+          <ViewName>REPORT_UnitArea</ViewName>
+          <SQL>CREATE VIEW REPORT_UnitArea AS SELECT UnitDescription, AreaDescription, StatusDescription, COUNT(ComponentID) FROM QUERY_Component GROUP BY UnitDescription, AreaDescription, StatusDescription;</SQL>
+          <IsQCQuery>true</IsQCQuery>
+        </Views>
+      </DocumentElement>
+    </diffgr:diffgram>
+  </ViewList>
+  <InputFieldDefinitions>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="InputFieldDefinitions" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="InputFieldDefinitions">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                  <xs:element name="FieldLabel" type="xs:string" minOccurs="0" />
+                  <xs:element name="DefaultValue" type="xs:string" minOccurs="0" />
+                  <xs:element name="Order" type="xs:int" minOccurs="0" />
+                  <xs:element name="UserEditable" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="CarryForward" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="LimitToList" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="SaveSession" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="ChildField" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="FieldEnabled" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="InspectionField" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="RefreshFromTable" type="xs:string" minOccurs="0" />
+                  <xs:element name="RefreshFromKey" type="xs:string" minOccurs="0" />
+                  <xs:element name="RefreshFromValue" type="xs:string" minOccurs="0" />
+                  <xs:element name="FormXY" type="xs:string" minOccurs="0" />
+                  <xs:element name="PicklistTableName" type="xs:string" minOccurs="0" />
+                  <xs:element name="PicklistTableKey" type="xs:string" minOccurs="0" />
+                  <xs:element name="PicklistTableValue" type="xs:string" minOccurs="0" />
+                  <xs:element name="DataType" type="xs:string" minOccurs="0" />
+                  <xs:element name="ValidateRegEx" type="xs:string" minOccurs="0" />
+                  <xs:element name="ChildRetrievalRegEx" type="xs:string" minOccurs="0" />
+                  <xs:element name="UpdateFromField" type="xs:string" minOccurs="0" />
+                  <xs:element name="MinEntryAreaSize" type="xs:int" minOccurs="0" />
+                  <xs:element name="ControlType" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </InputFieldDefinitions>
+  <RecipeName>LeakDAS Recipe</RecipeName>
+  <RecipeVersion>Development</RecipeVersion>
+  <RecipeDescription>Default LeakDAS Recipe</RecipeDescription>
+  <InputTableName>ComponentLastInspection</InputTableName>
+  <TargetDatabaseType>SQLServer</TargetDatabaseType>
+  <LastRefresh>0001-01-01T00:00:00</LastRefresh>
+</DatabaseRecipe>

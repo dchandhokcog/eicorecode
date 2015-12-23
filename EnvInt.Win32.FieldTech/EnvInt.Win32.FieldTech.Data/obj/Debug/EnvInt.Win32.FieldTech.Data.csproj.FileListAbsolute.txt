@@ -1,0 +1,21 @@
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\System.Data.SQLite.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\System.Data.SQLite.Linq.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\fbembed.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\icudt30.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\icuin30.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\icuuc30.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\Recipes\stock_leakdas_recipe.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\Recipes\TaggedComponent LeakDAS.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\SQLite.Interop.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\EnvInt.Win32.FieldTech.Data.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\EnvInt.Win32.FieldTech.Data.pdb
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\EnvInt.Win32.FieldTech.Common.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\Ionic.Zip.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\ClosedXML.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\DocumentFormat.OpenXml.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\EnvInt.Win32.FieldTech.Common.pdb
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\bin\Debug\ClosedXML.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\obj\Debug\EnvInt.Win32.FieldTech.Data.csprojResolveAssemblyReference.cache
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\obj\Debug\EnvInt.Win32.FieldTech.Data.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Data\obj\Debug\EnvInt.Win32.FieldTech.Data.pdb

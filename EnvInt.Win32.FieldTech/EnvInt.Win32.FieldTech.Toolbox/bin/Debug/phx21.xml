@@ -1,0 +1,4821 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+phx21
+</name>
+</assembly>
+<members>
+<member name="T:phx21.Spans.SpanDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:phx21.Spans.SettingsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:phx21.Spans.SpanRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:phx21.Spans.SettingsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:phx21.Spans.SpanRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:phx21.Spans.SettingsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:phx21.Spans">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A1">
+	<summary>
+  Looks up a localized string similar to HIGH TEMP DETECTED.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A10">
+	<summary>
+  Looks up a localized string similar to LOW SAMPLE PRESSURE!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A11">
+	<summary>
+  Looks up a localized string similar to FILTER DIRTY.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A12">
+	<summary>
+  Looks up a localized string similar to REPLACE FILTER SOON!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A13">
+	<summary>
+  Looks up a localized string similar to UNABLE TO CONNECT!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A14">
+	<summary>
+  Looks up a localized string similar to RECHARGE BATTERY.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A15">
+	<summary>
+  Looks up a localized string similar to Survey Components....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A16">
+	<summary>
+  Looks up a localized string similar to Survey Mode....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A17">
+	<summary>
+  Looks up a localized string similar to seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A2">
+	<summary>
+  Looks up a localized string similar to BATTERY LOW.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A3">
+	<summary>
+  Looks up a localized string similar to H2 LEAK.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A4">
+	<summary>
+  Looks up a localized string similar to STOP!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A5">
+	<summary>
+  Looks up a localized string similar to H2 USAGE VERY HIGH!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A6">
+	<summary>
+  Looks up a localized string similar to H2 USAGE HIGH.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A7">
+	<summary>
+  Looks up a localized string similar to FILTER DIRTY.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A8">
+	<summary>
+  Looks up a localized string similar to REPLACE FILTER SOON!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.A9">
+	<summary>
+  Looks up a localized string similar to HIGH SAMPLE PRESSURE!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.BD1">
+	<summary>
+  Looks up a localized string similar to Initial:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.BD2">
+	<summary>
+  Looks up a localized string similar to Adjusted:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.BD3">
+	<summary>
+  Looks up a localized string similar to LPH2 Offset:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.BD4">
+	<summary>
+  Looks up a localized string similar to Temp Offset:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C1">
+	<summary>
+  Looks up a localized string similar to Apply Concentration Of .
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C10">
+	<summary>
+  Looks up a localized string similar to phx21 Connect....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C101">
+	<summary>
+  Looks up a localized string similar to phx21 Connect….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C11">
+	<summary>
+  Looks up a localized string similar to Apply Concentration Of .
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C111">
+	<summary>
+  Looks up a localized string similar to Click "Begin" to retry..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C12">
+	<summary>
+  Looks up a localized string similar to Connecting….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C13">
+	<summary>
+  Looks up a localized string similar to Unable to Connect to .
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C14">
+	<summary>
+  Looks up a localized string similar to Do you want to try again?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C15">
+	<summary>
+  Looks up a localized string similar to Ignition Failure. Do you want to try to reignite?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C16">
+	<summary>
+  Looks up a localized string similar to Reigniting….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C17">
+	<summary>
+  Looks up a localized string similar to Sampling Range 2…please wait..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C18">
+	<summary>
+  Looks up a localized string similar to Sampling Range 3…please wait..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C19">
+	<summary>
+  Looks up a localized string similar to Calibration Failure! Calibration values are lower than previous span..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C2">
+	<summary>
+  Looks up a localized string similar to Then click begin to start calibration process..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C20">
+	<summary>
+  Looks up a localized string similar to Are you sure want to remove this phx from the calibration process?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C21">
+	<summary>
+  Looks up a localized string similar to Then click begin to start calibration process..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C3">
+	<summary>
+  Looks up a localized string similar to Begin.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C31">
+	<summary>
+  Looks up a localized string similar to Begin.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C4">
+	<summary>
+  Looks up a localized string similar to Skip.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C41">
+	<summary>
+  Looks up a localized string similar to Skip.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C5">
+	<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C51">
+	<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C6">
+	<summary>
+  Looks up a localized string similar to Menu.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C61">
+	<summary>
+  Looks up a localized string similar to Menu.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C7">
+	<summary>
+  Looks up a localized string similar to Sampling Range 1…please wait..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C71">
+	<summary>
+  Looks up a localized string similar to Sampling Range 1…please wait..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C8">
+	<summary>
+  Looks up a localized string similar to Restart.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C81">
+	<summary>
+  Looks up a localized string similar to Restart.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C9">
+	<summary>
+  Looks up a localized string similar to Calibration Complete!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.C91">
+	<summary>
+  Looks up a localized string similar to Calibration Complete!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS1">
+	<summary>
+  Looks up a localized string similar to Calibration Spans.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS10">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to delete the selected span?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS11">
+	<summary>
+  Looks up a localized string similar to Calibration Spans.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS2">
+	<summary>
+  Looks up a localized string similar to Target.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS21">
+	<summary>
+  Looks up a localized string similar to Target.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS3">
+	<summary>
+  Looks up a localized string similar to Actual.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS31">
+	<summary>
+  Looks up a localized string similar to Actual.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS4">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS41">
+	<summary>
+  Looks up a localized string similar to Add.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS5">
+	<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS51">
+	<summary>
+  Looks up a localized string similar to Delete.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS6">
+	<summary>
+  Looks up a localized string similar to Next.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS61">
+	<summary>
+  Looks up a localized string similar to Next.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS7">
+	<summary>
+  Looks up a localized string similar to Target PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS71">
+	<summary>
+  Looks up a localized string similar to Target PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS8">
+	<summary>
+  Looks up a localized string similar to Actual PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS81">
+	<summary>
+  Looks up a localized string similar to Actual PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS9">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.CS91">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M1">
+	<summary>
+  Looks up a localized string similar to File.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M10">
+	<summary>
+  Looks up a localized string similar to Survey Compoennts.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M101">
+	<summary>
+  Looks up a localized string similar to Survey Compoennts.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M11">
+	<summary>
+  Looks up a localized string similar to Bkgnd.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M111">
+	<summary>
+  Looks up a localized string similar to Bkgnd.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M12">
+	<summary>
+  Looks up a localized string similar to Net.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M121">
+	<summary>
+  Looks up a localized string similar to Net.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M13">
+	<summary>
+  Looks up a localized string similar to Elapsed.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M131">
+	<summary>
+  Looks up a localized string similar to Elapsed.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M14">
+	<summary>
+  Looks up a localized string similar to NO SIG.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M141">
+	<summary>
+  Looks up a localized string similar to NO SIG.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M15">
+	<summary>
+  Looks up a localized string similar to Comments.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M151">
+	<summary>
+  Looks up a localized string similar to Comments.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M16">
+	<summary>
+  Looks up a localized string similar to Tech ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M161">
+	<summary>
+  Looks up a localized string similar to Tech ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M17">
+	<summary>
+  Looks up a localized string similar to Analyzer.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M171">
+	<summary>
+  Looks up a localized string similar to Analyzer.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M18">
+	<summary>
+  Looks up a localized string similar to Connect….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M181">
+	<summary>
+  Looks up a localized string similar to Connect….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M19">
+	<summary>
+  Looks up a localized string similar to File.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M2">
+	<summary>
+  Looks up a localized string similar to New.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M21">
+	<summary>
+  Looks up a localized string similar to New.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M3">
+	<summary>
+  Looks up a localized string similar to Tag ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M31">
+	<summary>
+  Looks up a localized string similar to Tag ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M4">
+	<summary>
+  Looks up a localized string similar to Equipment.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M41">
+	<summary>
+  Looks up a localized string similar to Equipment.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M5">
+	<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M51">
+	<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M6">
+	<summary>
+  Looks up a localized string similar to Log File .
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M61">
+	<summary>
+  Looks up a localized string similar to Log File .
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M7">
+	<summary>
+  Looks up a localized string similar to Logging.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M71">
+	<summary>
+  Looks up a localized string similar to Logging.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M8">
+	<summary>
+  Looks up a localized string similar to Comp.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M81">
+	<summary>
+  Looks up a localized string similar to Comp.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M9">
+	<summary>
+  Looks up a localized string similar to Settings.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.M91">
+	<summary>
+  Looks up a localized string similar to Settings.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.O1">
+	<summary>
+  Looks up a localized string similar to Enter Op Code.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.O11">
+	<summary>
+  Looks up a localized string similar to Enter Op Code.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S1">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S10">
+	<summary>
+  Looks up a localized string similar to Valid registration key not found.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S100">
+	<summary>
+  Looks up a localized string similar to Searching for phx21 VOC Analyzer...please wait..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S10000">
+	<summary>
+  Looks up a localized string similar to 10 Thousand.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S101">
+	<summary>
+  Looks up a localized string similar to BlueTooth network not found.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S102">
+	<summary>
+  Looks up a localized string similar to Your phx21 Battery is too low. Please recharge before attempting to reignite..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S103">
+	<summary>
+  Looks up a localized string similar to Please ignite your phx21 before attempting to calibrate..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S104">
+	<summary>
+  Looks up a localized string similar to Your H2 pressure is too low. Please refill before attempting calibration..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S105">
+	<summary>
+  Looks up a localized string similar to You need to connect to an analyzer first..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S106">
+	<summary>
+  Looks up a localized string similar to Write to memory failed. Would you like to try again?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S107">
+	<summary>
+  Looks up a localized string similar to Saving to memory. Please do not turn off your phx21..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S108">
+	<summary>
+  Looks up a localized string similar to Do you want to shutdown the connected phx21?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S109">
+	<summary>
+  Looks up a localized string similar to Exit phx21?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S11">
+	<summary>
+  Looks up a localized string similar to Select your connection.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S110">
+	<summary>
+  Looks up a localized string similar to Calibration data not found on the connected phx21 analyzer. Do you want to load previously saved data for this analyzer?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S111">
+	<summary>
+  Looks up a localized string similar to Calibration data not found on the connected phx21 analyzer. You must calibrate this analyzer before monitoring..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S112">
+	<summary>
+  Looks up a localized string similar to An error occurred while attempting to retrieve calibration data from the connected phx21 analyzer. Would you like to try again?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S113">
+	<summary>
+  Looks up a localized string similar to Load previously saved data from file?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S114">
+	<summary>
+  Looks up a localized string similar to Connection closed. Tap the phx21 you wish to connect to..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S115">
+	<summary>
+  Looks up a localized string similar to Connecting....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S116">
+	<summary>
+  Looks up a localized string similar to Serial Port Init..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S117">
+	<summary>
+  Looks up a localized string similar to Connecting to.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S118">
+	<summary>
+  Looks up a localized string similar to Spans.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S119">
+	<summary>
+  Looks up a localized string similar to Freq:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S12">
+	<summary>
+  Looks up a localized string similar to Save.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S120">
+	<summary>
+  Looks up a localized string similar to Copyright © 2008-2014 LDARtools.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S121">
+	<summary>
+  Looks up a localized string similar to Conc.:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S122">
+	<summary>
+  Looks up a localized string similar to Results:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S123">
+	<summary>
+  Looks up a localized string similar to APPLY NOW!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S124">
+	<summary>
+  Looks up a localized string similar to Tap the phx21 VOC Analyzer you wish to connect to..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S125">
+	<summary>
+  Looks up a localized string similar to No phx21 VOC Analyzers found. Please make sure a connection has been created..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S126">
+	<summary>
+  Looks up a localized string similar to Span 1.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S127">
+	<summary>
+  Looks up a localized string similar to Span 6.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S128">
+	<summary>
+  Looks up a localized string similar to Span 2.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S129">
+	<summary>
+  Looks up a localized string similar to Span 3.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S13">
+	<summary>
+  Looks up a localized string similar to Your phx21 is reporting an error. Would you like to view the phx21 Connection screen?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S130">
+	<summary>
+  Looks up a localized string similar to Span 4.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S131">
+	<summary>
+  Looks up a localized string similar to Span 5.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S132">
+	<summary>
+  Looks up a localized string similar to Back....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S133">
+	<summary>
+  Looks up a localized string similar to About phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S134">
+	<summary>
+  Looks up a localized string similar to Bleed....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S135">
+	<summary>
+  Looks up a localized string similar to H2 already bled..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S136">
+	<summary>
+  Looks up a localized string similar to You need to connect to an analyzer first..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S137">
+	<summary>
+  Looks up a localized string similar to Close.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S138">
+	<summary>
+  Looks up a localized string similar to Cyl 1.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S139">
+	<summary>
+  Looks up a localized string similar to Spanbox not found.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S14">
+	<summary>
+  Looks up a localized string similar to Background sampling instructions.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S140">
+	<summary>
+  Looks up a localized string similar to Cyl 2.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S141">
+	<summary>
+  Looks up a localized string similar to Cyl 3.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S142">
+	<summary>
+  Looks up a localized string similar to Cyl 4.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S143">
+	<summary>
+  Looks up a localized string similar to Cyl 5.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S144">
+	<summary>
+  Looks up a localized string similar to Cyl 6.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S145">
+	<summary>
+  Looks up a localized string similar to Details....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S146">
+	<summary>
+  Looks up a localized string similar to You need to connect to an analyzer first..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S147">
+	<summary>
+  Looks up a localized string similar to Help.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S148">
+	<summary>
+  Looks up a localized string similar to Inspection Time....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S149">
+	<summary>
+  Looks up a localized string similar to LTI Mobile Registration.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S15">
+	<summary>
+  Looks up a localized string similar to Position the probe near the monitoring site. Tap the Save button to record..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S150">
+	<summary>
+  Looks up a localized string similar to Menu.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S151">
+	<summary>
+  Looks up a localized string similar to Open all.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S152">
+	<summary>
+  Looks up a localized string similar to Spanbox not found.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S153">
+	<summary>
+  Looks up a localized string similar to Save Data.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S154">
+	<summary>
+  Looks up a localized string similar to Save to phx21 memory?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S155">
+	<summary>
+  Looks up a localized string similar to You need to connect to an analyzer first..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S156">
+	<summary>
+  Looks up a localized string similar to Settings....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S157">
+	<summary>
+  Looks up a localized string similar to You need to connect to an analyzer first..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S158">
+	<summary>
+  Looks up a localized string similar to Use Primary Igniter?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S159">
+	<summary>
+  Looks up a localized string similar to Maximum Pump Power Level reached. Please check your probe for obstructions or replace your probe filter..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S16">
+	<summary>
+  Looks up a localized string similar to NO SIG.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S160">
+	<summary>
+  Looks up a localized string similar to HIGH PRESSURE WARNING! Please check to make sure a probe and probe filter are properly connected to you phx21..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S161">
+	<summary>
+  Looks up a localized string similar to Air sample pressure low! Please check your probe for obstructions or replace your probe filter..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S162">
+	<summary>
+  Looks up a localized string similar to Actual.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S163">
+	<summary>
+  Looks up a localized string similar to Date.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S164">
+	<summary>
+  Looks up a localized string similar to Currently connected to.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S165">
+	<summary>
+  Looks up a localized string similar to Target.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S166">
+	<summary>
+  Looks up a localized string similar to Display.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S167">
+	<summary>
+  Looks up a localized string similar to Connect.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S168">
+	<summary>
+  Looks up a localized string similar to Resp.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S169">
+	<summary>
+  Looks up a localized string similar to Calibrate.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S17">
+	<summary>
+  Looks up a localized string similar to BAD CAL.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S170">
+	<summary>
+  Looks up a localized string similar to Internal chamber temperature to high!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S171">
+	<summary>
+  Looks up a localized string similar to Your phx21 Battery is too low. Please recharge before attempting to reignite..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S172">
+	<summary>
+  Looks up a localized string similar to Tap the phx21 VOC Analyzer you wish to connect to..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S173">
+	<summary>
+  Looks up a localized string similar to No phx21 VOC Analyzers found. Please make sure your phx21 is turned on..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S174">
+	<summary>
+  Looks up a localized string similar to Re-ignite using Primary.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S175">
+	<summary>
+  Looks up a localized string similar to Re-Ignite using Secondary.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S176">
+	<summary>
+  Looks up a localized string similar to Shut Pump Off.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S177">
+	<summary>
+  Looks up a localized string similar to Main Pump currently running. Select action:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S178">
+	<summary>
+  Looks up a localized string similar to Save.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S179">
+	<summary>
+  Looks up a localized string similar to Your phx21 is reporting an error. Would you like to view the phx21 Connection screen?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S18">
+	<summary>
+  Looks up a localized string similar to Background.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S180">
+	<summary>
+  Looks up a localized string similar to You must monitor this component for at least.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S181">
+	<summary>
+  Looks up a localized string similar to Deflection detected. Move your probe to the maximum point of deflection and then continue monitoring until the PPM reading stops going up plus another.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S182">
+	<summary>
+  Looks up a localized string similar to Deflection detected. Move your probe to the highest point of deflection and then continue monitoring for.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S183">
+	<summary>
+  Looks up a localized string similar to seconds..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S184">
+	<summary>
+  Looks up a localized string similar to Elapsed.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S185">
+	<summary>
+  Looks up a localized string similar to Battery:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S186">
+	<summary>
+  Looks up a localized string similar to Bkgnd.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S187">
+	<summary>
+  Looks up a localized string similar to Max Allowed: .
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S188">
+	<summary>
+  Looks up a localized string similar to Probe Level.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S189">
+	<summary>
+  Looks up a localized string similar to Peak Level.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S19">
+	<summary>
+  Looks up a localized string similar to Bleeding...please wait..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S190">
+	<summary>
+  Looks up a localized string similar to Net.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S191">
+	<summary>
+  Looks up a localized string similar to Monitor.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S192">
+	<summary>
+  Looks up a localized string similar to Sol. Duration:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S193">
+	<summary>
+  Looks up a localized string similar to Default Power Level:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S194">
+	<summary>
+  Looks up a localized string similar to Max. Power Level:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S195">
+	<summary>
+  Looks up a localized string similar to Pressure Adj. Factor:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S196">
+	<summary>
+  Looks up a localized string similar to Min. Battery Voltage:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S197">
+	<summary>
+  Looks up a localized string similar to Weight Swing:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S198">
+	<summary>
+  Looks up a localized string similar to Software Avg.:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S199">
+	<summary>
+  Looks up a localized string similar to Hardware Avg.:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S2">
+	<summary>
+  Looks up a localized string similar to Cancel.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S20">
+	<summary>
+  Looks up a localized string similar to Bleed H2 Supply?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S200">
+	<summary>
+  Looks up a localized string similar to Charge:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S201">
+	<summary>
+  Looks up a localized string similar to Target Pressure:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S202">
+	<summary>
+  Looks up a localized string similar to Weight Trigger:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S203">
+	<summary>
+  Looks up a localized string similar to Trigger Avg.:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S204">
+	<summary>
+  Looks up a localized string similar to Therm Minimum:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S205">
+	<summary>
+  Looks up a localized string similar to Sol Cycle:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S206">
+	<summary>
+  Looks up a localized string similar to LPH2 Base:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S207">
+	<summary>
+  Looks up a localized string similar to Tolerance:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S208">
+	<summary>
+  Looks up a localized string similar to Min. Pressure Alarm:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S209">
+	<summary>
+  Looks up a localized string similar to Max. Pressure Alarm:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S21">
+	<summary>
+  Looks up a localized string similar to Pump Power Level:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S210">
+	<summary>
+  Looks up a localized string similar to System password incorrect..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S211">
+	<summary>
+  Looks up a localized string similar to Main.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S212">
+	<summary>
+  Looks up a localized string similar to Air Sample.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S213">
+	<summary>
+  Looks up a localized string similar to Debug.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S214">
+	<summary>
+  Looks up a localized string similar to System.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S215">
+	<summary>
+  Looks up a localized string similar to NO SIG.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S216">
+	<summary>
+  Looks up a localized string similar to BAD CAL.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S217">
+	<summary>
+  Looks up a localized string similar to Your control panel keyboard repeat rate must be changed before using LTI Mobile. Click OK to change this now and reboot your PDA..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S218">
+	<summary>
+  Looks up a localized string similar to Your PDA has been operating for more than 24 hours and must be rebooted..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S219">
+	<summary>
+  Looks up a localized string similar to You are required to reboot your PDA daily. Click OK to reboot now..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S22">
+	<summary>
+  Looks up a localized string similar to Thermocouple:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S220">
+	<summary>
+  Looks up a localized string similar to Interval Logging....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S221">
+	<summary>
+  Looks up a localized string similar to New.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S222">
+	<summary>
+  Looks up a localized string similar to Begin.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S223">
+	<summary>
+  Looks up a localized string similar to 5 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S224">
+	<summary>
+  Looks up a localized string similar to 10 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S225">
+	<summary>
+  Looks up a localized string similar to 180 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S226">
+	<summary>
+  Looks up a localized string similar to 240 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S227">
+	<summary>
+  Looks up a localized string similar to 300 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S228">
+	<summary>
+  Looks up a localized string similar to 15 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S229">
+	<summary>
+  Looks up a localized string similar to 20 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S23">
+	<summary>
+  Looks up a localized string similar to Raw:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S230">
+	<summary>
+  Looks up a localized string similar to 25 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S231">
+	<summary>
+  Looks up a localized string similar to 30 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S232">
+	<summary>
+  Looks up a localized string similar to 45 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S233">
+	<summary>
+  Looks up a localized string similar to 60 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S234">
+	<summary>
+  Looks up a localized string similar to 90 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S235">
+	<summary>
+  Looks up a localized string similar to 120 seconds.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S236">
+	<summary>
+  Looks up a localized string similar to Avg..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S237">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S238">
+	<summary>
+  Looks up a localized string similar to phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S239">
+	<summary>
+  Looks up a localized string similar to Error.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S24">
+	<summary>
+  Looks up a localized string similar to Chamber Temp:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S240">
+	<summary>
+  Looks up a localized string similar to TechID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S241">
+	<summary>
+  Looks up a localized string similar to Elapsed.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S242">
+	<summary>
+  Looks up a localized string similar to File:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S243">
+	<summary>
+  Looks up a localized string similar to Average.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S244">
+	<summary>
+  Looks up a localized string similar to Equipment:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S245">
+	<summary>
+  Looks up a localized string similar to Interval:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S246">
+	<summary>
+  Looks up a localized string similar to Tech ID:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S247">
+	<summary>
+  Looks up a localized string similar to Analyzer:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S248">
+	<summary>
+  Looks up a localized string similar to Peak.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S249">
+	<summary>
+  Looks up a localized string similar to Connect....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S25">
+	<summary>
+  Looks up a localized string similar to Exhaust Pressure:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S250">
+	<summary>
+  Looks up a localized string similar to Equipment.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S251">
+	<summary>
+  Looks up a localized string similar to Peak.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S252">
+	<summary>
+  Looks up a localized string similar to PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S253">
+	<summary>
+  Looks up a localized string similar to Time.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S254">
+	<summary>
+  Looks up a localized string similar to Logging.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S255">
+	<summary>
+  Looks up a localized string similar to Log File.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S256">
+	<summary>
+  Looks up a localized string similar to Settings.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S257">
+	<summary>
+  Looks up a localized string similar to OFF.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S258">
+	<summary>
+  Looks up a localized string similar to NO SIG.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S259">
+	<summary>
+  Looks up a localized string similar to BAD CAL.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S26">
+	<summary>
+  Looks up a localized string similar to pico Amps:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S260">
+	<summary>
+  Looks up a localized string similar to You must end the current survey before exiting..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S261">
+	<summary>
+  Looks up a localized string similar to You must end the current survey before creating a new log file..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S262">
+	<summary>
+  Looks up a localized string similar to You already have a log file named.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S263">
+	<summary>
+  Looks up a localized string similar to . Do you want to overwrite it?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S264">
+	<summary>
+  Looks up a localized string similar to Please enter a Tech ID..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S265">
+	<summary>
+  Looks up a localized string similar to Please enter an Analyzer ID..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S266">
+	<summary>
+  Looks up a localized string similar to Please select a survey interval..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S267">
+	<summary>
+  Looks up a localized string similar to Please enter equipment name.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S268">
+	<summary>
+  Looks up a localized string similar to Please create a new log file.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S269">
+	<summary>
+  Looks up a localized string similar to END.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S27">
+	<summary>
+  Looks up a localized string similar to LPH2 Pressure:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S270">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to end the current survey?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S271">
+	<summary>
+  Looks up a localized string similar to Begin.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S272">
+	<summary>
+  Looks up a localized string similar to You must end the current survey before deleting the log file..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S273">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to delete the current log file?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S274">
+	<summary>
+  Looks up a localized string similar to Delete Log File.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S275">
+	<summary>
+  Looks up a localized string similar to Begin.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S276">
+	<summary>
+  Looks up a localized string similar to End.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S277">
+	<summary>
+  Looks up a localized string similar to ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S278">
+	<summary>
+  Looks up a localized string similar to Equipment.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S279">
+	<summary>
+  Looks up a localized string similar to PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S28">
+	<summary>
+  Looks up a localized string similar to Battery:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S280">
+	<summary>
+  Looks up a localized string similar to Peak PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S281">
+	<summary>
+  Looks up a localized string similar to Average.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S282">
+	<summary>
+  Looks up a localized string similar to Status.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S283">
+	<summary>
+  Looks up a localized string similar to Analyzer.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S284">
+	<summary>
+  Looks up a localized string similar to Analyzer Error.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S285">
+	<summary>
+  Looks up a localized string similar to Tech ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S286">
+	<summary>
+  Looks up a localized string similar to phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S29">
+	<summary>
+  Looks up a localized string similar to Hydrogen Pressure:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S3">
+	<summary>
+  Looks up a localized string similar to OFF.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S30">
+	<summary>
+  Looks up a localized string similar to Integration Time:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S31">
+	<summary>
+  Looks up a localized string similar to Menu.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S32">
+	<summary>
+  Looks up a localized string similar to Pump On/Bypass.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S33">
+	<summary>
+  Looks up a localized string similar to Restore Default values....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S34">
+	<summary>
+  Looks up a localized string similar to Are you sure you want to restore default phx21 values?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S35">
+	<summary>
+  Looks up a localized string similar to Soft Reset.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S36">
+	<summary>
+  Looks up a localized string similar to Reset Device?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S37">
+	<summary>
+  Looks up a localized string similar to Solenoid 1 On.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S38">
+	<summary>
+  Looks up a localized string similar to Solenoid 2 On.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S39">
+	<summary>
+  Looks up a localized string similar to Ignore Background Reading.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S4">
+	<summary>
+  Looks up a localized string similar to Expiration Date:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S40">
+	<summary>
+  Looks up a localized string similar to Minimum Inspection Time:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S41">
+	<summary>
+  Looks up a localized string similar to Deflection PPM:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S42">
+	<summary>
+  Looks up a localized string similar to Minimum Deflection Time:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S43">
+	<summary>
+  Looks up a localized string similar to Valid registration key accepted. Your registration will expire on.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S44">
+	<summary>
+  Looks up a localized string similar to Invalid Key entered. Please contact LDARtools Support..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S45">
+	<summary>
+  Looks up a localized string similar to Invalid Key entered. Please try again..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S46">
+	<summary>
+  Looks up a localized string similar to No re-ignition\No Key required.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S47">
+	<summary>
+  Looks up a localized string similar to Registration key required.
+Call 1-877-788-1110 ext 1
+.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S48">
+	<summary>
+  Looks up a localized string similar to Hardware Fingerprint.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S49">
+	<summary>
+  Looks up a localized string similar to Registration Key.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S5">
+	<summary>
+  Looks up a localized string similar to A phx21 Connection has not been established. Do you want to do this now?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S50">
+	<summary>
+  Looks up a localized string similar to Expiration Date:.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S51">
+	<summary>
+  Looks up a localized string similar to Key Type: Basic.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S52">
+	<summary>
+  Looks up a localized string similar to Key Type: Premium.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S53">
+	<summary>
+  Looks up a localized string similar to Registration.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S54">
+	<summary>
+  Looks up a localized string similar to Cal. Spans.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S55">
+	<summary>
+  Looks up a localized string similar to Please ignite your phx21 before attempting to calibrate..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S56">
+	<summary>
+  Looks up a localized string similar to Your H2 pressure is to low. Please refill before attempting calibration..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S57">
+	<summary>
+  Looks up a localized string similar to Zero calibration not found or out of date. You must perform zero calibration before calibrating your spans. Would you like to do this now?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S58">
+	<summary>
+  Looks up a localized string similar to Clear all spans from connected phx21?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S59">
+	<summary>
+  Looks up a localized string similar to You need to connect to an analyzer first..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S6">
+	<summary>
+  Looks up a localized string similar to Daily calibration data not found for the connected phx21 analyzer. You must calibrate this analyzer before monitoring..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S60">
+	<summary>
+  Looks up a localized string similar to Cal. Zero.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S61">
+	<summary>
+  Looks up a localized string similar to Begin Test.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S62">
+	<summary>
+  Looks up a localized string similar to Save.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S63">
+	<summary>
+  Looks up a localized string similar to Config.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S64">
+	<summary>
+  Looks up a localized string similar to Refresh.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S65">
+	<summary>
+  Looks up a localized string similar to Connect.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S66">
+	<summary>
+  Looks up a localized string similar to Disconnect.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S67">
+	<summary>
+  Looks up a localized string similar to Refresh.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S68">
+	<summary>
+  Looks up a localized string similar to Discover.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S69">
+	<summary>
+  Looks up a localized string similar to Edit Span.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S7">
+	<summary>
+  Looks up a localized string similar to Monitored reading is less than - 2.5 ppm. You will need to recalibrate this phx21 before you continue monitoring..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S70">
+	<summary>
+  Looks up a localized string similar to Read.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S71">
+	<summary>
+  Looks up a localized string similar to Start.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S72">
+	<summary>
+  Looks up a localized string similar to Please select a concentration to test..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S73">
+	<summary>
+  Looks up a localized string similar to Write.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S74">
+	<summary>
+  Looks up a localized string similar to This feature not available on Symbol PDAs.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S75">
+	<summary>
+  Looks up a localized string similar to 1 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S76">
+	<summary>
+  Looks up a localized string similar to 2 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S77">
+	<summary>
+  Looks up a localized string similar to 15 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S78">
+	<summary>
+  Looks up a localized string similar to 20 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S79">
+	<summary>
+  Looks up a localized string similar to 30 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S8">
+	<summary>
+  Looks up a localized string similar to Your monitored reading is lower than your background reading. You must retake your background reading before you continue to monitor. Do you want to do this now?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S80">
+	<summary>
+  Looks up a localized string similar to 60 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S81">
+	<summary>
+  Looks up a localized string similar to 3 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S82">
+	<summary>
+  Looks up a localized string similar to 4 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S83">
+	<summary>
+  Looks up a localized string similar to 5 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S84">
+	<summary>
+  Looks up a localized string similar to 6 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S85">
+	<summary>
+  Looks up a localized string similar to 7 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S86">
+	<summary>
+  Looks up a localized string similar to 8 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S87">
+	<summary>
+  Looks up a localized string similar to 9 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S88">
+	<summary>
+  Looks up a localized string similar to 10 min..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S89">
+	<summary>
+  Looks up a localized string similar to Span.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S9">
+	<summary>
+  Looks up a localized string similar to You haven't recorded a background sample yet. Would you like to do this now?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S90">
+	<summary>
+  Looks up a localized string similar to Concentration.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S91">
+	<summary>
+  Looks up a localized string similar to Result.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S92">
+	<summary>
+  Looks up a localized string similar to Connecting....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S93">
+	<summary>
+  Looks up a localized string similar to Currently connected to.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S94">
+	<summary>
+  Looks up a localized string similar to You already connected to this analyzer. Do you want to reinitialize the connection?.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S95">
+	<summary>
+  Looks up a localized string similar to Unable to connect. Please check to make sure your analyzer is powered on..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S96">
+	<summary>
+  Looks up a localized string similar to Connecting to.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S97">
+	<summary>
+  Looks up a localized string similar to Range1.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S98">
+	<summary>
+  Looks up a localized string similar to Range2.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.S99">
+	<summary>
+  Looks up a localized string similar to Range3.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V1">
+	<summary>
+  Looks up a localized string similar to Peak.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V11">
+	<summary>
+  Looks up a localized string similar to Peak.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V2">
+	<summary>
+  Looks up a localized string similar to Elapsed.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V21">
+	<summary>
+  Looks up a localized string similar to Elapsed.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V3">
+	<summary>
+  Looks up a localized string similar to Reset.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V31">
+	<summary>
+  Looks up a localized string similar to Reset.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V4">
+	<summary>
+  Looks up a localized string similar to Close.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.V41">
+	<summary>
+  Looks up a localized string similar to Close.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB1">
+	<summary>
+  Looks up a localized string similar to Counts.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB10">
+	<summary>
+  Looks up a localized string similar to Ignited!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB11">
+	<summary>
+  Looks up a localized string similar to ...reading memory.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB12">
+	<summary>
+  Looks up a localized string similar to Checking LPH2....
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB13">
+	<summary>
+  Looks up a localized string similar to Testing Pump Throttle….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB14">
+	<summary>
+  Looks up a localized string similar to Passed!.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB15">
+	<summary>
+  Looks up a localized string similar to Connection failed..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB16">
+	<summary>
+  Looks up a localized string similar to Attempting reconnection….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB17">
+	<summary>
+  Looks up a localized string similar to USB Flash drive not found! Please make sure a USB Flash drive is plugged into your Spanbox..
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB2">
+	<summary>
+  Looks up a localized string similar to Offset.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB3">
+	<summary>
+  Looks up a localized string similar to Manual.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB4">
+	<summary>
+  Looks up a localized string similar to phx21 Connection.
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB5">
+	<summary>
+  Looks up a localized string similar to Connecting….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB6">
+	<summary>
+  Looks up a localized string similar to Connected….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB7">
+	<summary>
+  Looks up a localized string similar to Verifying Ignition….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB8">
+	<summary>
+  Looks up a localized string similar to Attempting Reignition….
+</summary>
+</member><member name="P:phx21.My.Resources.resEnglish.XB9">
+	<summary>
+  Looks up a localized string similar to Ignition Failure.
+</summary>
+</member><member name="T:phx21.My.Resources.resEnglish">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A1">
+	<summary>
+  Looks up a localized string similar to 檢測到高溫.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A10">
+	<summary>
+  Looks up a localized string similar to 壓力過低!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A11">
+	<summary>
+  Looks up a localized string similar to 濾片汙損.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A12">
+	<summary>
+  Looks up a localized string similar to 請盡快更換濾片!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A13">
+	<summary>
+  Looks up a localized string similar to 無法連線!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A14">
+	<summary>
+  Looks up a localized string similar to 請充電.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A15">
+	<summary>
+  Looks up a localized string similar to 設備量測模式.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A16">
+	<summary>
+  Looks up a localized string similar to 簡易量測模式.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A17">
+	<summary>
+  Looks up a localized string similar to  秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A2">
+	<summary>
+  Looks up a localized string similar to 電量不足.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A3">
+	<summary>
+  Looks up a localized string similar to H2 洩漏.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A4">
+	<summary>
+  Looks up a localized string similar to 停止!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A5">
+	<summary>
+  Looks up a localized string similar to H2消耗量過高!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A6">
+	<summary>
+  Looks up a localized string similar to H2消耗量高.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A7">
+	<summary>
+  Looks up a localized string similar to 濾片汙損.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A8">
+	<summary>
+  Looks up a localized string similar to 請盡快更換濾片!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.A9">
+	<summary>
+  Looks up a localized string similar to 進氣壓力過高!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.BD1">
+	<summary>
+  Looks up a localized string similar to 初始值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.BD2">
+	<summary>
+  Looks up a localized string similar to 修正值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.BD3">
+	<summary>
+  Looks up a localized string similar to LPH2 補償.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.BD4">
+	<summary>
+  Looks up a localized string similar to 溫度補償.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C1">
+	<summary>
+  Looks up a localized string similar to 導入濃度之標準氣體.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C10">
+	<summary>
+  Looks up a localized string similar to phx21 連結中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C11">
+	<summary>
+  Looks up a localized string similar to 點選"開始"進行重試.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C12">
+	<summary>
+  Looks up a localized string similar to 連結中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C13">
+	<summary>
+  Looks up a localized string similar to 無法連結至.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C14">
+	<summary>
+  Looks up a localized string similar to 你想要再試一次嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C15">
+	<summary>
+  Looks up a localized string similar to 點火失敗。你想要重新點火嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C16">
+	<summary>
+  Looks up a localized string similar to 重新點火中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C17">
+	<summary>
+  Looks up a localized string similar to 採樣範圍2…請稍後。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C18">
+	<summary>
+  Looks up a localized string similar to 採樣範圍3…請稍後。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C19">
+	<summary>
+  Looks up a localized string similar to 校正失敗! 校正值低於先前的濃度。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C2">
+	<summary>
+  Looks up a localized string similar to 接著點選開始進行校正程序.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C20">
+	<summary>
+  Looks up a localized string similar to 你確定要將校正程序從這台phx21移除嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C3">
+	<summary>
+  Looks up a localized string similar to 開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C4">
+	<summary>
+  Looks up a localized string similar to 略過.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C5">
+	<summary>
+  Looks up a localized string similar to 取消.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C6">
+	<summary>
+  Looks up a localized string similar to 選單.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C7">
+	<summary>
+  Looks up a localized string similar to 採樣範圍1…請稍後。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C8">
+	<summary>
+  Looks up a localized string similar to 重新開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.C9">
+	<summary>
+  Looks up a localized string similar to 校正完成!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS1">
+	<summary>
+  Looks up a localized string similar to 校正濃度.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS10">
+	<summary>
+  Looks up a localized string similar to 你確定要刪除所選定的校正濃度嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS2">
+	<summary>
+  Looks up a localized string similar to 目標值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS3">
+	<summary>
+  Looks up a localized string similar to 實際值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS4">
+	<summary>
+  Looks up a localized string similar to 新增.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS5">
+	<summary>
+  Looks up a localized string similar to 刪除.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS6">
+	<summary>
+  Looks up a localized string similar to 下一個.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS7">
+	<summary>
+  Looks up a localized string similar to 目標濃度PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS8">
+	<summary>
+  Looks up a localized string similar to 實際濃度PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.CS9">
+	<summary>
+  Looks up a localized string similar to 確認完成.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M1">
+	<summary>
+  Looks up a localized string similar to 檔案.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M10">
+	<summary>
+  Looks up a localized string similar to 元件測量模式.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M11">
+	<summary>
+  Looks up a localized string similar to 背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M12">
+	<summary>
+  Looks up a localized string similar to 淨值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M13">
+	<summary>
+  Looks up a localized string similar to 經歷時間.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M14">
+	<summary>
+  Looks up a localized string similar to 沒有訊號.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M15">
+	<summary>
+  Looks up a localized string similar to 備註.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M16">
+	<summary>
+  Looks up a localized string similar to 檢測工程師ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M17">
+	<summary>
+  Looks up a localized string similar to 分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M18">
+	<summary>
+  Looks up a localized string similar to 連結….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M2">
+	<summary>
+  Looks up a localized string similar to 新增.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M3">
+	<summary>
+  Looks up a localized string similar to 元件標籤ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M4">
+	<summary>
+  Looks up a localized string similar to 設備名稱.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M5">
+	<summary>
+  Looks up a localized string similar to 時間.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M6">
+	<summary>
+  Looks up a localized string similar to 日誌記錄檔案.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M7">
+	<summary>
+  Looks up a localized string similar to 日誌記錄.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M8">
+	<summary>
+  Looks up a localized string similar to 元件類別.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.M9">
+	<summary>
+  Looks up a localized string similar to 設定.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.NL4">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.O1">
+	<summary>
+  Looks up a localized string similar to 輸入OP代碼.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S1">
+	<summary>
+  Looks up a localized string similar to 確定.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S10">
+	<summary>
+  Looks up a localized string similar to 無效註冊碼.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S100">
+	<summary>
+  Looks up a localized string similar to phx21分析儀連線中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S10000">
+	<summary>
+  Looks up a localized string similar to 10 Thousand.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S101">
+	<summary>
+  Looks up a localized string similar to 未連結藍芽網路.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S102">
+	<summary>
+  Looks up a localized string similar to 電池電量過低，點火之前請先電.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S103">
+	<summary>
+  Looks up a localized string similar to 實施校正之前請先點火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S104">
+	<summary>
+  Looks up a localized string similar to 氫氣壓力過低，請先填充氫氣才可校正.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S105">
+	<summary>
+  Looks up a localized string similar to 首先要連接phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S106">
+	<summary>
+  Looks up a localized string similar to 主記憶體寫入失敗，是否重新嘗試?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S107">
+	<summary>
+  Looks up a localized string similar to 儲存中，請勿關閉phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S108">
+	<summary>
+  Looks up a localized string similar to 您想關閉連線中的phx21嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S109">
+	<summary>
+  Looks up a localized string similar to 是否退出phx21程式?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S11">
+	<summary>
+  Looks up a localized string similar to 請選擇連線選項.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S110">
+	<summary>
+  Looks up a localized string similar to 連線中的phx21分析儀並未發現校正數據，是否載入前次保存的校正數據？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S111">
+	<summary>
+  Looks up a localized string similar to 連線中的phx21分析儀並未發現校正數據，監測前需先校正這台儀器.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S112">
+	<summary>
+  Looks up a localized string similar to 從phx21分析儀下載校正數據時錯誤，是否再試一次?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S113">
+	<summary>
+  Looks up a localized string similar to 是否載入先前儲存的數據檔案?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S114">
+	<summary>
+  Looks up a localized string similar to 連線已經中斷，選取要建立連線的phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S115">
+	<summary>
+  Looks up a localized string similar to 連線中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S116">
+	<summary>
+  Looks up a localized string similar to 串列埠初始化中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S117">
+	<summary>
+  Looks up a localized string similar to 連線至.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S118">
+	<summary>
+  Looks up a localized string similar to 全幅濃度.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S119">
+	<summary>
+  Looks up a localized string similar to 頻率.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S12">
+	<summary>
+  Looks up a localized string similar to 儲存.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S120">
+	<summary>
+  Looks up a localized string similar to 版權所有 © 2008-2011 LDARtools.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S121">
+	<summary>
+  Looks up a localized string similar to 濃度:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S122">
+	<summary>
+  Looks up a localized string similar to 結果:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S123">
+	<summary>
+  Looks up a localized string similar to 立刻就連接標準氣體!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S124">
+	<summary>
+  Looks up a localized string similar to 點選phx21分析儀進行連線作業.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S125">
+	<summary>
+  Looks up a localized string similar to 未發現phx21 VOC分析儀，請確認連線是否正常.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S126">
+	<summary>
+  Looks up a localized string similar to 全幅濃度1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S127">
+	<summary>
+  Looks up a localized string similar to 全幅濃度6.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S128">
+	<summary>
+  Looks up a localized string similar to 全幅濃度2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S129">
+	<summary>
+  Looks up a localized string similar to 全幅濃度3.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S13">
+	<summary>
+  Looks up a localized string similar to phx21出現錯誤訊息，是否檢視phx21連線畫面?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S130">
+	<summary>
+  Looks up a localized string similar to 全幅濃度4.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S131">
+	<summary>
+  Looks up a localized string similar to 全幅濃度5.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S132">
+	<summary>
+  Looks up a localized string similar to 返回….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S133">
+	<summary>
+  Looks up a localized string similar to 關於phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S134">
+	<summary>
+  Looks up a localized string similar to 氫氣洩壓中....
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S135">
+	<summary>
+  Looks up a localized string similar to 氫氣洩壓已完成.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S136">
+	<summary>
+  Looks up a localized string similar to 你必須先與phx21分析儀連線.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S137">
+	<summary>
+  Looks up a localized string similar to 關閉程式.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S138">
+	<summary>
+  Looks up a localized string similar to 鋼瓶1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S139">
+	<summary>
+  Looks up a localized string similar to 未發現Spanbox存在.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S14">
+	<summary>
+  Looks up a localized string similar to 背景值取樣分析指示.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S140">
+	<summary>
+  Looks up a localized string similar to 鋼瓶2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S141">
+	<summary>
+  Looks up a localized string similar to 鋼瓶3.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S142">
+	<summary>
+  Looks up a localized string similar to 鋼瓶4.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S143">
+	<summary>
+  Looks up a localized string similar to 鋼瓶5.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S144">
+	<summary>
+  Looks up a localized string similar to 鋼瓶6.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S145">
+	<summary>
+  Looks up a localized string similar to 詳細內容….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S146">
+	<summary>
+  Looks up a localized string similar to 你必須先連接一台phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S147">
+	<summary>
+  Looks up a localized string similar to 求救.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S148">
+	<summary>
+  Looks up a localized string similar to 檢測時間….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S149">
+	<summary>
+  Looks up a localized string similar to LTI Mobile註冊.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S15">
+	<summary>
+  Looks up a localized string similar to .
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S150">
+	<summary>
+  Looks up a localized string similar to 功能選單.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S151">
+	<summary>
+  Looks up a localized string similar to 打開所有功能.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S152">
+	<summary>
+  Looks up a localized string similar to 未發現Spanbox存在.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S153">
+	<summary>
+  Looks up a localized string similar to 儲存數據.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S154">
+	<summary>
+  Looks up a localized string similar to 是否儲存至phx21記憶體中?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S155">
+	<summary>
+  Looks up a localized string similar to 你必須先連接一台phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S156">
+	<summary>
+  Looks up a localized string similar to 重新設定中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S157">
+	<summary>
+  Looks up a localized string similar to 你必須先連接一台phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S158">
+	<summary>
+  Looks up a localized string similar to 是否選用第一點火器?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S159">
+	<summary>
+  Looks up a localized string similar to 已經達到抽氣幫浦最大功率容許上限，請檢查取樣探頭是否阻塞，或是更換過濾片新品.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S16">
+	<summary>
+  Looks up a localized string similar to 無信號.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S160">
+	<summary>
+  Looks up a localized string similar to 壓力過高警告!請檢查取樣探頭與過濾片是否正確連接至phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S161">
+	<summary>
+  Looks up a localized string similar to 壓力過低警告! ，請檢查取樣探頭是否阻塞，或是更換過濾片新品.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S162">
+	<summary>
+  Looks up a localized string similar to 實際值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S163">
+	<summary>
+  Looks up a localized string similar to 日期.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S164">
+	<summary>
+  Looks up a localized string similar to 目前連線至.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S165">
+	<summary>
+  Looks up a localized string similar to 目標值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S166">
+	<summary>
+  Looks up a localized string similar to 顯示畫面.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S167">
+	<summary>
+  Looks up a localized string similar to 連線.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S168">
+	<summary>
+  Looks up a localized string similar to 反應.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S169">
+	<summary>
+  Looks up a localized string similar to 校正.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S17">
+	<summary>
+  Looks up a localized string similar to 校正失敗.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S170">
+	<summary>
+  Looks up a localized string similar to 燃燒室腔體內部溫度過高!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S171">
+	<summary>
+  Looks up a localized string similar to 電池存量太低，請先充電再點火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S172">
+	<summary>
+  Looks up a localized string similar to 點選您要連線的phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S173">
+	<summary>
+  Looks up a localized string similar to 未發現phx21 VOC分析儀，請確認phx21主機已完成開機.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S174">
+	<summary>
+  Looks up a localized string similar to 採用第一點火器重新點火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S175">
+	<summary>
+  Looks up a localized string similar to 採用第二點火器重新點火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S176">
+	<summary>
+  Looks up a localized string similar to 關閉抽氣幫浦.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S177">
+	<summary>
+  Looks up a localized string similar to 主要幫浦正運轉中，請選擇以下動作:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S178">
+	<summary>
+  Looks up a localized string similar to 儲存.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S179">
+	<summary>
+  Looks up a localized string similar to phx21出現錯誤訊息，是否檢視phx21連線畫面?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S18">
+	<summary>
+  Looks up a localized string similar to 背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S180">
+	<summary>
+  Looks up a localized string similar to 監測此設備元件至少需費時.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S181">
+	<summary>
+  Looks up a localized string similar to 偵測到異常濃度，請將探頭移動至最大濃度位置持續監測直到PPM讀值不再上升為止.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S182">
+	<summary>
+  Looks up a localized string similar to 偵測到異常濃度，請將探頭移動至最大濃度位置持續監測.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S183">
+	<summary>
+  Looks up a localized string similar to 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S184">
+	<summary>
+  Looks up a localized string similar to 歷經時間.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S185">
+	<summary>
+  Looks up a localized string similar to 電池:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S186">
+	<summary>
+  Looks up a localized string similar to 背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S187">
+	<summary>
+  Looks up a localized string similar to 最大容許值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S188">
+	<summary>
+  Looks up a localized string similar to 取樣探頭.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S189">
+	<summary>
+  Looks up a localized string similar to 高峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S19">
+	<summary>
+  Looks up a localized string similar to 洩壓中…請稍後.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S190">
+	<summary>
+  Looks up a localized string similar to 淨檢值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S191">
+	<summary>
+  Looks up a localized string similar to 監測.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S192">
+	<summary>
+  Looks up a localized string similar to 電磁閥持續時間:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S193">
+	<summary>
+  Looks up a localized string similar to 預設幫浦馬力%:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S194">
+	<summary>
+  Looks up a localized string similar to 最大幫浦馬力%:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S195">
+	<summary>
+  Looks up a localized string similar to 壓力調整係數:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S196">
+	<summary>
+  Looks up a localized string similar to 最小電池電壓:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S197">
+	<summary>
+  Looks up a localized string similar to 權重變動:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S198">
+	<summary>
+  Looks up a localized string similar to 軟體平均:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S199">
+	<summary>
+  Looks up a localized string similar to 硬體平均:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S2">
+	<summary>
+  Looks up a localized string similar to 取消.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S20">
+	<summary>
+  Looks up a localized string similar to 氫氣洩壓?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S200">
+	<summary>
+  Looks up a localized string similar to 充電:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S201">
+	<summary>
+  Looks up a localized string similar to 目標壓力值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S202">
+	<summary>
+  Looks up a localized string similar to 權重觸發:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S203">
+	<summary>
+  Looks up a localized string similar to 觸發平均值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S204">
+	<summary>
+  Looks up a localized string similar to 熱電偶最小值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S205">
+	<summary>
+  Looks up a localized string similar to 電磁閥週期:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S206">
+	<summary>
+  Looks up a localized string similar to 計數補償:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S207">
+	<summary>
+  Looks up a localized string similar to 容許誤差:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S208">
+	<summary>
+  Looks up a localized string similar to 最小壓力警告:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S209">
+	<summary>
+  Looks up a localized string similar to 最大壓力警告:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S21">
+	<summary>
+  Looks up a localized string similar to 幫浦馬力%:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S210">
+	<summary>
+  Looks up a localized string similar to 系統密碼錯誤.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S211">
+	<summary>
+  Looks up a localized string similar to 主功能.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S212">
+	<summary>
+  Looks up a localized string similar to 氣體樣品.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S213">
+	<summary>
+  Looks up a localized string similar to 除錯.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S214">
+	<summary>
+  Looks up a localized string similar to 系統.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S215">
+	<summary>
+  Looks up a localized string similar to 無訊號.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S216">
+	<summary>
+  Looks up a localized string similar to 校正失敗.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S217">
+	<summary>
+  Looks up a localized string similar to 在使用 LTI Mobile 之前必需先更改您控制面板鍵盤重複率。現在“確定”進行更改並重新啟動您的 PDA。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S218">
+	<summary>
+  Looks up a localized string similar to 您的 PDA 已經連續操作超過 24 小时，必需重新啟動。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S219">
+	<summary>
+  Looks up a localized string similar to 您必須每天重新啟動您的 PDA。點選“確定”開始重新啟動 。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S22">
+	<summary>
+  Looks up a localized string similar to 熱電偶:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S220">
+	<summary>
+  Looks up a localized string similar to 日誌記錄.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S221">
+	<summary>
+  Looks up a localized string similar to 新.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S222">
+	<summary>
+  Looks up a localized string similar to 開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S223">
+	<summary>
+  Looks up a localized string similar to 5 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S224">
+	<summary>
+  Looks up a localized string similar to 10 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S225">
+	<summary>
+  Looks up a localized string similar to 180 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S226">
+	<summary>
+  Looks up a localized string similar to 240 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S227">
+	<summary>
+  Looks up a localized string similar to 300 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S228">
+	<summary>
+  Looks up a localized string similar to 15 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S229">
+	<summary>
+  Looks up a localized string similar to 20 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S23">
+	<summary>
+  Looks up a localized string similar to 原始數據:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S230">
+	<summary>
+  Looks up a localized string similar to 25 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S231">
+	<summary>
+  Looks up a localized string similar to 30 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S232">
+	<summary>
+  Looks up a localized string similar to 45 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S233">
+	<summary>
+  Looks up a localized string similar to 60 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S234">
+	<summary>
+  Looks up a localized string similar to 90 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S235">
+	<summary>
+  Looks up a localized string similar to 120 秒鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S236">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S237">
+	<summary>
+  Looks up a localized string similar to 狀態.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S238">
+	<summary>
+  Looks up a localized string similar to phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S239">
+	<summary>
+  Looks up a localized string similar to 錯誤.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S24">
+	<summary>
+  Looks up a localized string similar to 燃燒室溫度:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S240">
+	<summary>
+  Looks up a localized string similar to TechID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S241">
+	<summary>
+  Looks up a localized string similar to 耗費時間.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S242">
+	<summary>
+  Looks up a localized string similar to 文檔:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S243">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S244">
+	<summary>
+  Looks up a localized string similar to 設備:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S245">
+	<summary>
+  Looks up a localized string similar to 間隔:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S246">
+	<summary>
+  Looks up a localized string similar to 技術員識別碼:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S247">
+	<summary>
+  Looks up a localized string similar to 分析儀:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S248">
+	<summary>
+  Looks up a localized string similar to 高峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S249">
+	<summary>
+  Looks up a localized string similar to 連線中....
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S25">
+	<summary>
+  Looks up a localized string similar to 廢氣排出壓力:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S250">
+	<summary>
+  Looks up a localized string similar to 設備.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S251">
+	<summary>
+  Looks up a localized string similar to 高峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S252">
+	<summary>
+  Looks up a localized string similar to PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S253">
+	<summary>
+  Looks up a localized string similar to 時間.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S254">
+	<summary>
+  Looks up a localized string similar to 日誌記錄.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S255">
+	<summary>
+  Looks up a localized string similar to 日誌文檔.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S256">
+	<summary>
+  Looks up a localized string similar to 設置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S257">
+	<summary>
+  Looks up a localized string similar to 關閉.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S258">
+	<summary>
+  Looks up a localized string similar to 無信號.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S259">
+	<summary>
+  Looks up a localized string similar to 調用失敗.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S26">
+	<summary>
+  Looks up a localized string similar to 兆分之一安培:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S260">
+	<summary>
+  Looks up a localized string similar to 在退出之前，您必須結束當前的日誌記錄。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S261">
+	<summary>
+  Looks up a localized string similar to 在創建新的日誌文檔之前，您必須結束當前的日誌記錄。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S262">
+	<summary>
+  Looks up a localized string similar to 您已經命名了一個日誌文檔.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S263">
+	<summary>
+  Looks up a localized string similar to .您要覆蓋它嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S264">
+	<summary>
+  Looks up a localized string similar to 請輸入技術員識別碼。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S265">
+	<summary>
+  Looks up a localized string similar to 請輸入分析儀識別碼。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S266">
+	<summary>
+  Looks up a localized string similar to 請選擇記錄間隔。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S267">
+	<summary>
+  Looks up a localized string similar to 請輸入設備名稱.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S268">
+	<summary>
+  Looks up a localized string similar to 請創建新的日誌文檔.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S269">
+	<summary>
+  Looks up a localized string similar to 結束.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S27">
+	<summary>
+  Looks up a localized string similar to 低壓氫氣:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S270">
+	<summary>
+  Looks up a localized string similar to 您確定要結束當前的日誌記錄操作嗎？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S271">
+	<summary>
+  Looks up a localized string similar to 開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S272">
+	<summary>
+  Looks up a localized string similar to 在刪除日誌文檔之前，您必須結束當前的日誌記錄操作。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S273">
+	<summary>
+  Looks up a localized string similar to 您確定要刪除當前的日誌文檔嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S274">
+	<summary>
+  Looks up a localized string similar to 刪除日誌文檔.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S275">
+	<summary>
+  Looks up a localized string similar to 開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S276">
+	<summary>
+  Looks up a localized string similar to 結束.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S277">
+	<summary>
+  Looks up a localized string similar to 序號.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S278">
+	<summary>
+  Looks up a localized string similar to 設備名稱.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S279">
+	<summary>
+  Looks up a localized string similar to PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S28">
+	<summary>
+  Looks up a localized string similar to 電池:　.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S280">
+	<summary>
+  Looks up a localized string similar to 最大值 PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S281">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S282">
+	<summary>
+  Looks up a localized string similar to 狀態.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S283">
+	<summary>
+  Looks up a localized string similar to 分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S284">
+	<summary>
+  Looks up a localized string similar to 分析儀異常.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S285">
+	<summary>
+  Looks up a localized string similar to 檢測人員.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S286">
+	<summary>
+  Looks up a localized string similar to phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S29">
+	<summary>
+  Looks up a localized string similar to 氫氣壓力:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S3">
+	<summary>
+  Looks up a localized string similar to 關閉.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S30">
+	<summary>
+  Looks up a localized string similar to 整合時間:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S31">
+	<summary>
+  Looks up a localized string similar to 功能選單.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S32">
+	<summary>
+  Looks up a localized string similar to 啟動幫浦/略過.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S33">
+	<summary>
+  Looks up a localized string similar to 恢復預設值….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S34">
+	<summary>
+  Looks up a localized string similar to 您確定要恢复 phx21的預設值嗎?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S35">
+	<summary>
+  Looks up a localized string similar to 暖開機.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S36">
+	<summary>
+  Looks up a localized string similar to 重新開機?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S37">
+	<summary>
+  Looks up a localized string similar to 電磁發1開啟中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S38">
+	<summary>
+  Looks up a localized string similar to 電磁閥2開啟中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S39">
+	<summary>
+  Looks up a localized string similar to 忽略背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S4">
+	<summary>
+  Looks up a localized string similar to 到期日:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S40">
+	<summary>
+  Looks up a localized string similar to 最小檢測時間:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S41">
+	<summary>
+  Looks up a localized string similar to 偏差PPM:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S42">
+	<summary>
+  Looks up a localized string similar to 最小偏差時間:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S43">
+	<summary>
+  Looks up a localized string similar to 有效註冊碼已接受，有效期限為.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S44">
+	<summary>
+  Looks up a localized string similar to 無效密碼，請聯絡品昌企業股份有限公司請求技術支援.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S45">
+	<summary>
+  Looks up a localized string similar to 無效密碼，請再試一次.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S46">
+	<summary>
+  Looks up a localized string similar to 無需重新點火/無須密碼.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S47">
+	<summary>
+  Looks up a localized string similar to 需要提供註冊碼，請撥打+886-227936949.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S48">
+	<summary>
+  Looks up a localized string similar to 硬體識別碼.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S49">
+	<summary>
+  Looks up a localized string similar to 註冊碼.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S5">
+	<summary>
+  Looks up a localized string similar to 尚未連線至phx21，您要繼續操作?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S50">
+	<summary>
+  Looks up a localized string similar to 到期日:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S51">
+	<summary>
+  Looks up a localized string similar to 密碼類型: 基本.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S52">
+	<summary>
+  Looks up a localized string similar to 密碼類型: 進階.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S53">
+	<summary>
+  Looks up a localized string similar to 註冊.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S54">
+	<summary>
+  Looks up a localized string similar to 校正濃度.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S55">
+	<summary>
+  Looks up a localized string similar to 校正之前，請先啟動phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S56">
+	<summary>
+  Looks up a localized string similar to 氫氣壓力過低，請先填充氫氣才可校正.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S57">
+	<summary>
+  Looks up a localized string similar to 零點校正紀錄未發現或過期，必須先校正零點才能校正全幅點，是否要繼續？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S58">
+	<summary>
+  Looks up a localized string similar to 清除phx21上所有全幅校正紀錄?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S59">
+	<summary>
+  Looks up a localized string similar to 操作前需連線至phx21主機.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S6">
+	<summary>
+  Looks up a localized string similar to 每日校正紀錄未紀錄，監測前必須先校正phx21分析儀.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S60">
+	<summary>
+  Looks up a localized string similar to 開始零度校正.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S61">
+	<summary>
+  Looks up a localized string similar to 測試開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S62">
+	<summary>
+  Looks up a localized string similar to 儲存.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S63">
+	<summary>
+  Looks up a localized string similar to 這定.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S64">
+	<summary>
+  Looks up a localized string similar to 更新.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S65">
+	<summary>
+  Looks up a localized string similar to 連線.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S66">
+	<summary>
+  Looks up a localized string similar to 連線中斷.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S67">
+	<summary>
+  Looks up a localized string similar to 重新連線.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S68">
+	<summary>
+  Looks up a localized string similar to 發現.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S69">
+	<summary>
+  Looks up a localized string similar to 編輯校正濃度.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S7">
+	<summary>
+  Looks up a localized string similar to 監測數據小於-2.5ppm，需重新校正才能繼續進行偵測.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S70">
+	<summary>
+  Looks up a localized string similar to 讀出.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S71">
+	<summary>
+  Looks up a localized string similar to 開始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S72">
+	<summary>
+  Looks up a localized string similar to 請選定測試濃度.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S73">
+	<summary>
+  Looks up a localized string similar to 寫入.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S74">
+	<summary>
+  Looks up a localized string similar to 夲功能不適用於Symbol PDAs.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S75">
+	<summary>
+  Looks up a localized string similar to 1分鍾.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S76">
+	<summary>
+  Looks up a localized string similar to 2分鍾.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S77">
+	<summary>
+  Looks up a localized string similar to 15分鍾.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S78">
+	<summary>
+  Looks up a localized string similar to 20分鍾.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S79">
+	<summary>
+  Looks up a localized string similar to 30分鍾.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S8">
+	<summary>
+  Looks up a localized string similar to  檢設數值低於背景值，監測前應先完成施作背景值校正等? .
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S80">
+	<summary>
+  Looks up a localized string similar to 60分鍾.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S81">
+	<summary>
+  Looks up a localized string similar to 3分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S82">
+	<summary>
+  Looks up a localized string similar to 4分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S83">
+	<summary>
+  Looks up a localized string similar to 5分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S84">
+	<summary>
+  Looks up a localized string similar to 6分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S85">
+	<summary>
+  Looks up a localized string similar to 7分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S86">
+	<summary>
+  Looks up a localized string similar to 8分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S87">
+	<summary>
+  Looks up a localized string similar to 9分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S88">
+	<summary>
+  Looks up a localized string similar to 10分鐘.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S89">
+	<summary>
+  Looks up a localized string similar to 全幅.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S9">
+	<summary>
+  Looks up a localized string similar to 背景值儲存作業尚未完成，是否重新儲存背景值?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S90">
+	<summary>
+  Looks up a localized string similar to 濃度:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S91">
+	<summary>
+  Looks up a localized string similar to 結果:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S92">
+	<summary>
+  Looks up a localized string similar to 連線中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S93">
+	<summary>
+  Looks up a localized string similar to 目前已經連接到.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S94">
+	<summary>
+  Looks up a localized string similar to 已經連線phx21成功，您要重新開始連接嗎？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S95">
+	<summary>
+  Looks up a localized string similar to 連線失敗，請檢查確認phx21主機已經開機.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S96">
+	<summary>
+  Looks up a localized string similar to 連線至.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S97">
+	<summary>
+  Looks up a localized string similar to 量測範圍1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S98">
+	<summary>
+  Looks up a localized string similar to 量測範圍2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.S99">
+	<summary>
+  Looks up a localized string similar to 量測範圍3.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.V1">
+	<summary>
+  Looks up a localized string similar to 高峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.V2">
+	<summary>
+  Looks up a localized string similar to 經歷時間.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.V3">
+	<summary>
+  Looks up a localized string similar to 重置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.V4">
+	<summary>
+  Looks up a localized string similar to 關閉.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB1">
+	<summary>
+  Looks up a localized string similar to 參數.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB10">
+	<summary>
+  Looks up a localized string similar to 點火完成!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB11">
+	<summary>
+  Looks up a localized string similar to …記錄檔讀取中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB12">
+	<summary>
+  Looks up a localized string similar to LPH2確認中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB13">
+	<summary>
+  Looks up a localized string similar to 泵浦變頻測試中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB14">
+	<summary>
+  Looks up a localized string similar to 通過測試.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB15">
+	<summary>
+  Looks up a localized string similar to 連結失敗。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB16">
+	<summary>
+  Looks up a localized string similar to 嘗試重新連結….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB17">
+	<summary>
+  Looks up a localized string similar to 未搜尋到USB隨身碟! 請確認USB隨身碟已插上Spanbox。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB2">
+	<summary>
+  Looks up a localized string similar to 補償.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB3">
+	<summary>
+  Looks up a localized string similar to 使用手冊(Operation Manual) or 手動(Manual Operation not Auto).
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB4">
+	<summary>
+  Looks up a localized string similar to phx21 連結.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB5">
+	<summary>
+  Looks up a localized string similar to 連結中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB6">
+	<summary>
+  Looks up a localized string similar to 已連結….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB7">
+	<summary>
+  Looks up a localized string similar to 點火驗證中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB8">
+	<summary>
+  Looks up a localized string similar to 嘗試重新點火….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese.XB9">
+	<summary>
+  Looks up a localized string similar to 點火失敗.
+</summary>
+</member><member name="T:phx21.My.Resources.resChinese">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A1">
+	<summary>
+  Looks up a localized string similar to 检测到的温度过高.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A10">
+	<summary>
+  Looks up a localized string similar to 采样压力过低！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A11">
+	<summary>
+  Looks up a localized string similar to 过滤器过脏.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A12">
+	<summary>
+  Looks up a localized string similar to 尽快更换过滤器！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A13">
+	<summary>
+  Looks up a localized string similar to 无法连接！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A14">
+	<summary>
+  Looks up a localized string similar to 再次充电.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A15">
+	<summary>
+  Looks up a localized string similar to 检测组件….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A16">
+	<summary>
+  Looks up a localized string similar to 检测模式….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A17">
+	<summary>
+  Looks up a localized string similar to 秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A2">
+	<summary>
+  Looks up a localized string similar to 电池电量低.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A3">
+	<summary>
+  Looks up a localized string similar to 氢气峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A4">
+	<summary>
+  Looks up a localized string similar to 停止！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A5">
+	<summary>
+  Looks up a localized string similar to 氢气使用率非常高！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A6">
+	<summary>
+  Looks up a localized string similar to 氢气使用率过高.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A7">
+	<summary>
+  Looks up a localized string similar to 过滤器过脏.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A8">
+	<summary>
+  Looks up a localized string similar to 尽快更换过滤器！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.A9">
+	<summary>
+  Looks up a localized string similar to 采样压力过高！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.BD1">
+	<summary>
+  Looks up a localized string similar to 初始值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.BD2">
+	<summary>
+  Looks up a localized string similar to 调整值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.BD3">
+	<summary>
+  Looks up a localized string similar to 低压氢气偏移量:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.BD4">
+	<summary>
+  Looks up a localized string similar to 温度偏移量:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C1">
+	<summary>
+  Looks up a localized string similar to 采样进气量为.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C10">
+	<summary>
+  Looks up a localized string similar to phx21连接中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C11">
+	<summary>
+  Looks up a localized string similar to 点击“开始”.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C12">
+	<summary>
+  Looks up a localized string similar to 连接中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C13">
+	<summary>
+  Looks up a localized string similar to 无法连接至指定的仪器名称。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C14">
+	<summary>
+  Looks up a localized string similar to 是否再试一次？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C15">
+	<summary>
+  Looks up a localized string similar to 点火失败，是否重新点火？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C16">
+	<summary>
+  Looks up a localized string similar to 点火中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C17">
+	<summary>
+  Looks up a localized string similar to 第二次取样进行中，请稍等。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C18">
+	<summary>
+  Looks up a localized string similar to 第三次取样进行中，请稍等。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C19">
+	<summary>
+  Looks up a localized string similar to 校准失败！校准值低于之前的跨度值。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C2">
+	<summary>
+  Looks up a localized string similar to 点击开始以启动校准。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C20">
+	<summary>
+  Looks up a localized string similar to 确认从校准过程中移除该phx吗？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C3">
+	<summary>
+  Looks up a localized string similar to 开始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C4">
+	<summary>
+  Looks up a localized string similar to 跳过.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C5">
+	<summary>
+  Looks up a localized string similar to 取消.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C6">
+	<summary>
+  Looks up a localized string similar to 按钮.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C7">
+	<summary>
+  Looks up a localized string similar to 第一次取样进行中，请稍等。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C8">
+	<summary>
+  Looks up a localized string similar to 重新开始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.C9">
+	<summary>
+  Looks up a localized string similar to 校准完成！.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS1">
+	<summary>
+  Looks up a localized string similar to 校准量程.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS10">
+	<summary>
+  Looks up a localized string similar to 确认删除当前选择的量程气吗？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS2">
+	<summary>
+  Looks up a localized string similar to 理论值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS3">
+	<summary>
+  Looks up a localized string similar to 实际值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS4">
+	<summary>
+  Looks up a localized string similar to 添加.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS5">
+	<summary>
+  Looks up a localized string similar to 删除.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS6">
+	<summary>
+  Looks up a localized string similar to 下一个.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS7">
+	<summary>
+  Looks up a localized string similar to 理论PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS8">
+	<summary>
+  Looks up a localized string similar to 实际PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.CS9">
+	<summary>
+  Looks up a localized string similar to OK.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M1">
+	<summary>
+  Looks up a localized string similar to 文档.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M10">
+	<summary>
+  Looks up a localized string similar to 检测组件.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M11">
+	<summary>
+  Looks up a localized string similar to 背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M12">
+	<summary>
+  Looks up a localized string similar to 净读数.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M13">
+	<summary>
+  Looks up a localized string similar to 已用时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M14">
+	<summary>
+  Looks up a localized string similar to 无信号.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M15">
+	<summary>
+  Looks up a localized string similar to 备注.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M16">
+	<summary>
+  Looks up a localized string similar to 检测人员ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M17">
+	<summary>
+  Looks up a localized string similar to 分析仪.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M18">
+	<summary>
+  Looks up a localized string similar to 连接中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M2">
+	<summary>
+  Looks up a localized string similar to 新建.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M3">
+	<summary>
+  Looks up a localized string similar to 标签ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M4">
+	<summary>
+  Looks up a localized string similar to 装置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M5">
+	<summary>
+  Looks up a localized string similar to 时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M6">
+	<summary>
+  Looks up a localized string similar to 记录文档.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M7">
+	<summary>
+  Looks up a localized string similar to 记录.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M8">
+	<summary>
+  Looks up a localized string similar to 组件.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.M9">
+	<summary>
+  Looks up a localized string similar to 设置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.NL4">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.O1">
+	<summary>
+  Looks up a localized string similar to 输入Op码.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S1">
+	<summary>
+  Looks up a localized string similar to 确定.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S10">
+	<summary>
+  Looks up a localized string similar to 未发现有效的注册密钥.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S100">
+	<summary>
+  Looks up a localized string similar to 正在搜索 phx21分析仪，请稍等。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S101">
+	<summary>
+  Looks up a localized string similar to 未发现蓝牙网络。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S102">
+	<summary>
+  Looks up a localized string similar to phx21 电池电量过低，重新点火之前请先充电。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S103">
+	<summary>
+  Looks up a localized string similar to 校准之前请先点火。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S104">
+	<summary>
+  Looks up a localized string similar to 氢气压力过低，请在校准前填充氢气。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S105">
+	<summary>
+  Looks up a localized string similar to 需要连接一台分析仪。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S106">
+	<summary>
+  Looks up a localized string similar to 写入内存失败，是否重新尝试?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S107">
+	<summary>
+  Looks up a localized string similar to 正在保存到内存中，请不要关闭 phx21。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S108">
+	<summary>
+  Looks up a localized string similar to 是否关闭已经连接的 phx21 ?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S109">
+	<summary>
+  Looks up a localized string similar to 是否退出 phx21?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S11">
+	<summary>
+  Looks up a localized string similar to 请选择连接选项。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S110">
+	<summary>
+  Looks up a localized string similar to 连接中的 phx21 分析仪上未发现校准数据，是否加载之前保存的校准数据?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S111">
+	<summary>
+  Looks up a localized string similar to 连接中的 phx21 分析仪上未发现校准数据，检测前需先校准该台仪器。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S112">
+	<summary>
+  Looks up a localized string similar to 从已连接的 phx21 分析仪上检索校准数据时出错，是否再试一次?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S113">
+	<summary>
+  Looks up a localized string similar to 是否从文档内加载之前保存的数据?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S114">
+	<summary>
+  Looks up a localized string similar to 连接已径中断，请点击要建立连接的 phx21分析仪。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S115">
+	<summary>
+  Looks up a localized string similar to 连接中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S116">
+	<summary>
+  Looks up a localized string similar to 串行口初始化。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S117">
+	<summary>
+  Looks up a localized string similar to 正在连接到.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S118">
+	<summary>
+  Looks up a localized string similar to 量程.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S119">
+	<summary>
+  Looks up a localized string similar to 频率:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S12">
+	<summary>
+  Looks up a localized string similar to 保存.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S120">
+	<summary>
+  Looks up a localized string similar to 版权所有 © 2008-2009 LDARtools.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S121">
+	<summary>
+  Looks up a localized string similar to 浓度:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S122">
+	<summary>
+  Looks up a localized string similar to 结果:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S123">
+	<summary>
+  Looks up a localized string similar to 现在就申请!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S124">
+	<summary>
+  Looks up a localized string similar to 点击需要连接的 phx21 分析仪。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S125">
+	<summary>
+  Looks up a localized string similar to 未发现 phx21分析仪，请确认连接是否正常。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S126">
+	<summary>
+  Looks up a localized string similar to 量程 1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S127">
+	<summary>
+  Looks up a localized string similar to 量程 6.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S128">
+	<summary>
+  Looks up a localized string similar to 量程 2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S129">
+	<summary>
+  Looks up a localized string similar to 量程 3.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S13">
+	<summary>
+  Looks up a localized string similar to phx21出现错误信息，是否查看 phx21 连接画面?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S130">
+	<summary>
+  Looks up a localized string similar to 量程 4.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S131">
+	<summary>
+  Looks up a localized string similar to 量程 5.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S132">
+	<summary>
+  Looks up a localized string similar to 返回.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S133">
+	<summary>
+  Looks up a localized string similar to 关于phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S134">
+	<summary>
+  Looks up a localized string similar to 排出氢气中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S135">
+	<summary>
+  Looks up a localized string similar to 氢气已排出。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S136">
+	<summary>
+  Looks up a localized string similar to 必须先与phx21分析仪连接。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S137">
+	<summary>
+  Looks up a localized string similar to 关闭.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S138">
+	<summary>
+  Looks up a localized string similar to 钢瓶 1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S139">
+	<summary>
+  Looks up a localized string similar to 未发现 Spanbox.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S14">
+	<summary>
+  Looks up a localized string similar to 背景值取样分析指示.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S140">
+	<summary>
+  Looks up a localized string similar to 钢瓶 2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S141">
+	<summary>
+  Looks up a localized string similar to 钢瓶 3.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S142">
+	<summary>
+  Looks up a localized string similar to 钢瓶 4.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S143">
+	<summary>
+  Looks up a localized string similar to 钢瓶 5.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S144">
+	<summary>
+  Looks up a localized string similar to 钢瓶 6.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S145">
+	<summary>
+  Looks up a localized string similar to 详细参数.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S146">
+	<summary>
+  Looks up a localized string similar to 必须先与phx21分析仪连接。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S147">
+	<summary>
+  Looks up a localized string similar to 帮助.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S148">
+	<summary>
+  Looks up a localized string similar to 检测时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S149">
+	<summary>
+  Looks up a localized string similar to LTI Mobile 注册.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S15">
+	<summary>
+  Looks up a localized string similar to 将探头靠近检测点，点击“保存”按钮进行记录。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S150">
+	<summary>
+  Looks up a localized string similar to 菜单.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S151">
+	<summary>
+  Looks up a localized string similar to 打开所有.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S152">
+	<summary>
+  Looks up a localized string similar to 未发现 Spanbox.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S153">
+	<summary>
+  Looks up a localized string similar to 保存数据.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S154">
+	<summary>
+  Looks up a localized string similar to 是否保存到 phx21 内存中?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S155">
+	<summary>
+  Looks up a localized string similar to 必须先与phx21分析仪连接。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S156">
+	<summary>
+  Looks up a localized string similar to 设置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S157">
+	<summary>
+  Looks up a localized string similar to 必须先与phx21分析仪连接。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S158">
+	<summary>
+  Looks up a localized string similar to 是否使用第一点火器?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S159">
+	<summary>
+  Looks up a localized string similar to 已达到抽气泵最大功率上限值。请检查探头是否阻塞，或者需要更换探头过滤器。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S16">
+	<summary>
+  Looks up a localized string similar to 无信号.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S160">
+	<summary>
+  Looks up a localized string similar to 高压警告! 请检查探头和探头过滤器是否正确连接到phx21分析仪。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S161">
+	<summary>
+  Looks up a localized string similar to 取样空气压力较低！请检查探头是否阻塞，或者需要更换探头过滤器。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S162">
+	<summary>
+  Looks up a localized string similar to 实际值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S163">
+	<summary>
+  Looks up a localized string similar to 日期.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S164">
+	<summary>
+  Looks up a localized string similar to 当前已连接到.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S165">
+	<summary>
+  Looks up a localized string similar to 理论值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S166">
+	<summary>
+  Looks up a localized string similar to 显示.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S167">
+	<summary>
+  Looks up a localized string similar to 连接.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S168">
+	<summary>
+  Looks up a localized string similar to 响应.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S169">
+	<summary>
+  Looks up a localized string similar to 校准.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S17">
+	<summary>
+  Looks up a localized string similar to 不良校准.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S170">
+	<summary>
+  Looks up a localized string similar to 燃烧室腔体内部温度过高!.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S171">
+	<summary>
+  Looks up a localized string similar to phx21 电池电量过低，重新点火之前请先充电。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S172">
+	<summary>
+  Looks up a localized string similar to 点击需要连接的 phx21分析仪。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S173">
+	<summary>
+  Looks up a localized string similar to 未发现 phx21分析仪，请确认 phx21已经开启。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S174">
+	<summary>
+  Looks up a localized string similar to 采用第一点火器重新点火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S175">
+	<summary>
+  Looks up a localized string similar to 采用第二点火器重新点火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S176">
+	<summary>
+  Looks up a localized string similar to 关闭抽气泵.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S177">
+	<summary>
+  Looks up a localized string similar to 主泵正在运行，请选择以下选项:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S178">
+	<summary>
+  Looks up a localized string similar to 保存.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S179">
+	<summary>
+  Looks up a localized string similar to phx21出现错误信息，是否查看 phx21 连接页面?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S18">
+	<summary>
+  Looks up a localized string similar to 背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S180">
+	<summary>
+  Looks up a localized string similar to 该组件的检测时间至少停留.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S181">
+	<summary>
+  Looks up a localized string similar to 检测到异常浓度，请将探头移动到最大浓度位置持续检测直至 PPM 读数不再上升。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S182">
+	<summary>
+  Looks up a localized string similar to 检测到异常浓度，请将探头移动到最大浓度位置持续检测.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S183">
+	<summary>
+  Looks up a localized string similar to 秒。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S184">
+	<summary>
+  Looks up a localized string similar to 已用时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S185">
+	<summary>
+  Looks up a localized string similar to 电池:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S186">
+	<summary>
+  Looks up a localized string similar to 背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S187">
+	<summary>
+  Looks up a localized string similar to 最大允许值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S188">
+	<summary>
+  Looks up a localized string similar to 取样探头.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S189">
+	<summary>
+  Looks up a localized string similar to 峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S19">
+	<summary>
+  Looks up a localized string similar to 正在排气，请稍等。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S190">
+	<summary>
+  Looks up a localized string similar to 净检值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S191">
+	<summary>
+  Looks up a localized string similar to 检测.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S192">
+	<summary>
+  Looks up a localized string similar to 电磁阀持续时间:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S193">
+	<summary>
+  Looks up a localized string similar to 默认功率电平:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S194">
+	<summary>
+  Looks up a localized string similar to 最大功率电平:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S195">
+	<summary>
+  Looks up a localized string similar to 压力调整系数:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S196">
+	<summary>
+  Looks up a localized string similar to 最低电池电压:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S197">
+	<summary>
+  Looks up a localized string similar to 权重变动值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S198">
+	<summary>
+  Looks up a localized string similar to 软件平均值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S199">
+	<summary>
+  Looks up a localized string similar to 硬件平均值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S2">
+	<summary>
+  Looks up a localized string similar to 取消.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S20">
+	<summary>
+  Looks up a localized string similar to 排空氢气?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S200">
+	<summary>
+  Looks up a localized string similar to 充电:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S201">
+	<summary>
+  Looks up a localized string similar to 目标压力:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S202">
+	<summary>
+  Looks up a localized string similar to 权重触发:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S203">
+	<summary>
+  Looks up a localized string similar to 触发平均值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S204">
+	<summary>
+  Looks up a localized string similar to 热电偶最低值:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S205">
+	<summary>
+  Looks up a localized string similar to 电磁阀周期:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S206">
+	<summary>
+  Looks up a localized string similar to 计数补偿:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S207">
+	<summary>
+  Looks up a localized string similar to 允许误差:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S208">
+	<summary>
+  Looks up a localized string similar to 最小压力警告:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S209">
+	<summary>
+  Looks up a localized string similar to 最大压力警告:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S21">
+	<summary>
+  Looks up a localized string similar to 泵功率电平:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S210">
+	<summary>
+  Looks up a localized string similar to 系统密码错误。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S211">
+	<summary>
+  Looks up a localized string similar to 主屏幕.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S212">
+	<summary>
+  Looks up a localized string similar to 空气样品.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S213">
+	<summary>
+  Looks up a localized string similar to 调试.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S214">
+	<summary>
+  Looks up a localized string similar to 系统.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S215">
+	<summary>
+  Looks up a localized string similar to 无信号.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S216">
+	<summary>
+  Looks up a localized string similar to 不良校准.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S217">
+	<summary>
+  Looks up a localized string similar to 在使用 LTI Mobile 之前须先更改控制面板键盘的重复率，点击“确定”进行更改并重启 PDA。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S218">
+	<summary>
+  Looks up a localized string similar to PDA 已经运行超过 24 小时，必须重新启动。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S219">
+	<summary>
+  Looks up a localized string similar to 您必须每天重新启动 PDA，点击“确定”开始重新启动 。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S22">
+	<summary>
+  Looks up a localized string similar to 热电偶:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S220">
+	<summary>
+  Looks up a localized string similar to 间隔记录.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S221">
+	<summary>
+  Looks up a localized string similar to 新建.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S222">
+	<summary>
+  Looks up a localized string similar to 开始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S223">
+	<summary>
+  Looks up a localized string similar to 5秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S224">
+	<summary>
+  Looks up a localized string similar to 10秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S225">
+	<summary>
+  Looks up a localized string similar to 180秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S226">
+	<summary>
+  Looks up a localized string similar to 240秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S227">
+	<summary>
+  Looks up a localized string similar to 300秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S228">
+	<summary>
+  Looks up a localized string similar to 15秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S229">
+	<summary>
+  Looks up a localized string similar to 20秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S23">
+	<summary>
+  Looks up a localized string similar to 原始数据:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S230">
+	<summary>
+  Looks up a localized string similar to 25秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S231">
+	<summary>
+  Looks up a localized string similar to 30秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S232">
+	<summary>
+  Looks up a localized string similar to 45秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S233">
+	<summary>
+  Looks up a localized string similar to 60秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S234">
+	<summary>
+  Looks up a localized string similar to 90秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S235">
+	<summary>
+  Looks up a localized string similar to 120秒.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S236">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S237">
+	<summary>
+  Looks up a localized string similar to 状态.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S238">
+	<summary>
+  Looks up a localized string similar to phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S239">
+	<summary>
+  Looks up a localized string similar to 错误.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S24">
+	<summary>
+  Looks up a localized string similar to 燃烧室温度:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S240">
+	<summary>
+  Looks up a localized string similar to 检测人员ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S241">
+	<summary>
+  Looks up a localized string similar to 已用时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S242">
+	<summary>
+  Looks up a localized string similar to 文件：.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S243">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S244">
+	<summary>
+  Looks up a localized string similar to 仪器：.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S245">
+	<summary>
+  Looks up a localized string similar to 间隔时间：.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S246">
+	<summary>
+  Looks up a localized string similar to 检测人员ID：.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S247">
+	<summary>
+  Looks up a localized string similar to 分析仪：.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S248">
+	<summary>
+  Looks up a localized string similar to 峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S249">
+	<summary>
+  Looks up a localized string similar to 连接中….
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S25">
+	<summary>
+  Looks up a localized string similar to 废气排出压力:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S250">
+	<summary>
+  Looks up a localized string similar to 仪器.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S251">
+	<summary>
+  Looks up a localized string similar to 峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S252">
+	<summary>
+  Looks up a localized string similar to PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S253">
+	<summary>
+  Looks up a localized string similar to 时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S254">
+	<summary>
+  Looks up a localized string similar to 记录.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S255">
+	<summary>
+  Looks up a localized string similar to 日志文件.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S256">
+	<summary>
+  Looks up a localized string similar to 设置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S257">
+	<summary>
+  Looks up a localized string similar to 关闭.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S258">
+	<summary>
+  Looks up a localized string similar to 无信号.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S259">
+	<summary>
+  Looks up a localized string similar to 不良校准.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S26">
+	<summary>
+  Looks up a localized string similar to 兆分之一安培:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S260">
+	<summary>
+  Looks up a localized string similar to 请在退出前结束当前检测。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S261">
+	<summary>
+  Looks up a localized string similar to 在创建一个新的日志文件之前请关闭当前检测。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S262">
+	<summary>
+  Looks up a localized string similar to 已经存在一个命名的日志文件，.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S263">
+	<summary>
+  Looks up a localized string similar to 是否重新覆盖它？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S264">
+	<summary>
+  Looks up a localized string similar to 请输入检测人员ID号。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S265">
+	<summary>
+  Looks up a localized string similar to 请输入分析仪ID号。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S266">
+	<summary>
+  Looks up a localized string similar to 请选择检测间隔时间。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S267">
+	<summary>
+  Looks up a localized string similar to 请输入仪器名字.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S268">
+	<summary>
+  Looks up a localized string similar to 请创建一个新的日志文件.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S269">
+	<summary>
+  Looks up a localized string similar to 结束.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S27">
+	<summary>
+  Looks up a localized string similar to 低压氢气压力:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S270">
+	<summary>
+  Looks up a localized string similar to 是否结束当前检测？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S271">
+	<summary>
+  Looks up a localized string similar to 开始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S272">
+	<summary>
+  Looks up a localized string similar to 请在删除日志文件前结束当前检测。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S273">
+	<summary>
+  Looks up a localized string similar to 确认删除当前日志文件吗？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S274">
+	<summary>
+  Looks up a localized string similar to 删除日志文件.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S275">
+	<summary>
+  Looks up a localized string similar to 开始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S276">
+	<summary>
+  Looks up a localized string similar to 结束.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S277">
+	<summary>
+  Looks up a localized string similar to ID号.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S278">
+	<summary>
+  Looks up a localized string similar to 仪器.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S279">
+	<summary>
+  Looks up a localized string similar to PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S28">
+	<summary>
+  Looks up a localized string similar to 电池:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S280">
+	<summary>
+  Looks up a localized string similar to 峰值PPM.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S281">
+	<summary>
+  Looks up a localized string similar to 平均值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S282">
+	<summary>
+  Looks up a localized string similar to 状态.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S283">
+	<summary>
+  Looks up a localized string similar to 分析仪.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S284">
+	<summary>
+  Looks up a localized string similar to 分析仪出错.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S285">
+	<summary>
+  Looks up a localized string similar to 检测人员ID.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S286">
+	<summary>
+  Looks up a localized string similar to phx21.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S29">
+	<summary>
+  Looks up a localized string similar to 氢气压力:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S3">
+	<summary>
+  Looks up a localized string similar to 关闭.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S30">
+	<summary>
+  Looks up a localized string similar to 积累时间:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S31">
+	<summary>
+  Looks up a localized string similar to 菜单.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S32">
+	<summary>
+  Looks up a localized string similar to 开启泵/忽略其他特性.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S33">
+	<summary>
+  Looks up a localized string similar to 恢复默认值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S34">
+	<summary>
+  Looks up a localized string similar to 您确定要恢复默认的 phx21值吗?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S35">
+	<summary>
+  Looks up a localized string similar to 软件复位.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S36">
+	<summary>
+  Looks up a localized string similar to 重置设备?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S37">
+	<summary>
+  Looks up a localized string similar to 开启电磁阀 1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S38">
+	<summary>
+  Looks up a localized string similar to 开启电磁阀 2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S39">
+	<summary>
+  Looks up a localized string similar to 忽略背景值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S4">
+	<summary>
+  Looks up a localized string similar to 到期时间:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S40">
+	<summary>
+  Looks up a localized string similar to 最小检测时间:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S41">
+	<summary>
+  Looks up a localized string similar to 偏差 PPM:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S42">
+	<summary>
+  Looks up a localized string similar to 最小偏差时间:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S43">
+	<summary>
+  Looks up a localized string similar to 有效注册密钥已接受。您的注册到期日为.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S44">
+	<summary>
+  Looks up a localized string similar to 无效密钥，请联系 LDARtools公司请求技术支持。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S45">
+	<summary>
+  Looks up a localized string similar to 无效密钥，请重试。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S46">
+	<summary>
+  Looks up a localized string similar to 无需重新点火/无需密钥.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S47">
+	<summary>
+  Looks up a localized string similar to 需注册密钥，请联系 LDARtools公司。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S48">
+	<summary>
+  Looks up a localized string similar to 硬件识别码.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S49">
+	<summary>
+  Looks up a localized string similar to 注册密钥.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S5">
+	<summary>
+  Looks up a localized string similar to phx21 的连接尚未建立，是否继续操作?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S50">
+	<summary>
+  Looks up a localized string similar to 到期时间:.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S51">
+	<summary>
+  Looks up a localized string similar to 密钥类型: 基本.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S52">
+	<summary>
+  Looks up a localized string similar to 密钥类型: 高级.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S53">
+	<summary>
+  Looks up a localized string similar to 注册.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S54">
+	<summary>
+  Looks up a localized string similar to 量程校准.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S55">
+	<summary>
+  Looks up a localized string similar to 在校准前，请先启动 phx21。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S56">
+	<summary>
+  Looks up a localized string similar to 氢气压力过低，请在校准前填充氢气。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S57">
+	<summary>
+  Looks up a localized string similar to 零点校准记录未发现或已过期，必须在量程校准之前进行零点校准，是否继续?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S58">
+	<summary>
+  Looks up a localized string similar to 从已经连接的 phx21 上清除所有的量程校准记录?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S59">
+	<summary>
+  Looks up a localized string similar to 必须先与phx21分析仪连接。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S6">
+	<summary>
+  Looks up a localized string similar to 在已连接的 phx21 分析仪上未发现每日校准数据，检测前必须先校准。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S60">
+	<summary>
+  Looks up a localized string similar to 零点校准.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S61">
+	<summary>
+  Looks up a localized string similar to 开始测试.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S62">
+	<summary>
+  Looks up a localized string similar to 保存.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S63">
+	<summary>
+  Looks up a localized string similar to 配置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S64">
+	<summary>
+  Looks up a localized string similar to 刷新.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S65">
+	<summary>
+  Looks up a localized string similar to 连接.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S66">
+	<summary>
+  Looks up a localized string similar to 断开.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S67">
+	<summary>
+  Looks up a localized string similar to 刷新.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S68">
+	<summary>
+  Looks up a localized string similar to 搜索.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S69">
+	<summary>
+  Looks up a localized string similar to 编辑量程气.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S7">
+	<summary>
+  Looks up a localized string similar to 监测读数小于 - 2.5 ppm。在继续监测前必须重新校准这台 phx21 分析仪。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S70">
+	<summary>
+  Looks up a localized string similar to 读数.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S71">
+	<summary>
+  Looks up a localized string similar to 开始.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S72">
+	<summary>
+  Looks up a localized string similar to 请选择测试浓度。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S73">
+	<summary>
+  Looks up a localized string similar to 写入.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S74">
+	<summary>
+  Looks up a localized string similar to Symbol PDAs 不具备这一特性.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S75">
+	<summary>
+  Looks up a localized string similar to 1 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S76">
+	<summary>
+  Looks up a localized string similar to 2 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S77">
+	<summary>
+  Looks up a localized string similar to 15 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S78">
+	<summary>
+  Looks up a localized string similar to 20 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S79">
+	<summary>
+  Looks up a localized string similar to 30 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S8">
+	<summary>
+  Looks up a localized string similar to 检测值低于背景值，在继续检测前须重新记录背景值，是否继续?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S80">
+	<summary>
+  Looks up a localized string similar to 60 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S81">
+	<summary>
+  Looks up a localized string similar to 3 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S82">
+	<summary>
+  Looks up a localized string similar to 4 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S83">
+	<summary>
+  Looks up a localized string similar to 5 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S84">
+	<summary>
+  Looks up a localized string similar to 6 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S85">
+	<summary>
+  Looks up a localized string similar to 7 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S86">
+	<summary>
+  Looks up a localized string similar to 8 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S87">
+	<summary>
+  Looks up a localized string similar to 9 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S88">
+	<summary>
+  Looks up a localized string similar to 10 分钟.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S89">
+	<summary>
+  Looks up a localized string similar to 量程.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S9">
+	<summary>
+  Looks up a localized string similar to 背景值尚未记录，是否现在进行？.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S90">
+	<summary>
+  Looks up a localized string similar to 浓度.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S91">
+	<summary>
+  Looks up a localized string similar to 结果.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S92">
+	<summary>
+  Looks up a localized string similar to 连接中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S93">
+	<summary>
+  Looks up a localized string similar to 当前已连接到.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S94">
+	<summary>
+  Looks up a localized string similar to 已经连接到这台分析仪，您要重新开始连接吗?.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S95">
+	<summary>
+  Looks up a localized string similar to 连接失败，请确认分析仪已经开启。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S96">
+	<summary>
+  Looks up a localized string similar to 连接至.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S97">
+	<summary>
+  Looks up a localized string similar to 范围 1.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S98">
+	<summary>
+  Looks up a localized string similar to 范围 2.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.S99">
+	<summary>
+  Looks up a localized string similar to 范围 3.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.V1">
+	<summary>
+  Looks up a localized string similar to 峰值.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.V2">
+	<summary>
+  Looks up a localized string similar to 已用时间.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.V3">
+	<summary>
+  Looks up a localized string similar to 重置.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.V4">
+	<summary>
+  Looks up a localized string similar to 关闭.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB1">
+	<summary>
+  Looks up a localized string similar to 计数/频数.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB10">
+	<summary>
+  Looks up a localized string similar to 点火成功.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB11">
+	<summary>
+  Looks up a localized string similar to 读取内存中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB12">
+	<summary>
+  Looks up a localized string similar to 检查低压氢气中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB13">
+	<summary>
+  Looks up a localized string similar to 检查泵马力中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB14">
+	<summary>
+  Looks up a localized string similar to 通过.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB15">
+	<summary>
+  Looks up a localized string similar to 连接失败.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB16">
+	<summary>
+  Looks up a localized string similar to 尝试再次连接.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB17">
+	<summary>
+  Looks up a localized string similar to USB闪存盘未找到，请确认USB闪存盘插在你的Spanbox上。.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB2">
+	<summary>
+  Looks up a localized string similar to 偏移.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB3">
+	<summary>
+  Looks up a localized string similar to 手动.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB4">
+	<summary>
+  Looks up a localized string similar to phx21连接.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB5">
+	<summary>
+  Looks up a localized string similar to 连接中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB6">
+	<summary>
+  Looks up a localized string similar to 已连接.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB7">
+	<summary>
+  Looks up a localized string similar to 正在确认是否成功点火.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB8">
+	<summary>
+  Looks up a localized string similar to 尝试点火中.
+</summary>
+</member><member name="P:phx21.My.Resources.resChinese_Simple.XB9">
+	<summary>
+  Looks up a localized string similar to 点火失败.
+</summary>
+</member><member name="T:phx21.My.Resources.resChinese_Simple">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.DS_DIGIT">
+	<summary>
+  Looks up a localized resource of type System.Byte[].
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.Phx">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.PowerIgnite">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.PowerLit">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:phx21.My.Resources.Resources.PowerOff">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:phx21.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

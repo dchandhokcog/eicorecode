@@ -1,0 +1,1 @@
+if $(ConfigurationName) == Release "c:\Program Files (x86)\Eziriz\.NET Reactor\dotNET_Reactor.exe" -file "$(ProjectDir)$(IntermediateOutputPath)$(TargetFileName)" -targetfile "$(ProjectDir)$(OutputPath)$(TargetFileName)" -project "C:\SVN\envint\EnvInt.Win32\EnvInt.Win32.AutoDesk.PnP.Installers\obfuscate_defaults.nrproj"

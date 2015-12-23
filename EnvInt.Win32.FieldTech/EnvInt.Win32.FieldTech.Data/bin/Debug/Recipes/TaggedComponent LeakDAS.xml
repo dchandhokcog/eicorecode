@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<DatabaseRecipe xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TableList>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Tables" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Tables">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TableName" type="xs:string" minOccurs="0" />
+                  <xs:element name="ImportFromTarget" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="SourceConnectionString" type="xs:string" minOccurs="0" />
+                  <xs:element name="SourceDatabaseType" type="xs:string" minOccurs="0" />
+                  <xs:element name="LastRefresh" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="SQL" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+      <DocumentElement>
+        <Tables diffgr:id="Tables1" msdata:rowOrder="0" diffgr:hasChanges="inserted">
+          <TableName>Areas</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>Select AreaId, AreaDescription, '' as AreaCode, 1 as showInTablet from LocationArea</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables2" msdata:rowOrder="1" diffgr:hasChanges="inserted">
+          <TableName>ChemicalStates</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>Select ChemicalStateId, ChemicalState, StateDescription, 1 as showInTablet from ChemicalState</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables3" msdata:rowOrder="2" diffgr:hasChanges="inserted">
+          <TableName>ComplianceGroups</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>Select ComplianceGroupId, ComplianceGroupDescription, 1 as showInTablet from ComplianceGroups</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables4" msdata:rowOrder="3" diffgr:hasChanges="inserted">
+          <TableName>ExistingComponents</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>select ComponentId as Id, ComponentTag,'' as TagExtension, PlantId, ProcessUnitId, AreaID, ManufacturerID, Property as compProperty, Drawing, LocationDescription, Size, PressureServiceId,'' as Location1,'' as Location2,'' as Location3, ComponentCategoryId, ComponentReasonId, 0 as ComponentUTMReasonId, ChemicalStateId,ComponentStreamID as ChemicalStreamId, ComponentClassId, ComponentTypeId, [Status] as POS,0 as TOS,'' as POSReason,'' as TOSReason,FITRouteSequence as RouteSequence from component</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables5" msdata:rowOrder="4" diffgr:hasChanges="inserted">
+          <TableName>ComponentCategories</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>Select ComponentCategoryId, CategoryCode, CategoryDescription, 1 as showInTablet from ComponentCategory</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables6" msdata:rowOrder="5" diffgr:hasChanges="inserted">
+          <TableName>ComponentClassTypes</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT ComponentClass.ComponentClassID, ComponentClass, ClassDescription, ComponentTypeId, ComponentType, TypeDescription,1 as showInTablet,1 as childType from ComponentClass left outer join ComponentType on ComponentClass.ComponentClassID = ComponentType.ComponentClassID</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables7" msdata:rowOrder="6" diffgr:hasChanges="inserted">
+          <TableName>ComponentStreams</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [ComponentStreamID],[ComponentStream],[StreamDescription],1 as showInTablet FROM [ComponentStream]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables8" msdata:rowOrder="7" diffgr:hasChanges="inserted">
+          <TableName>Equipment</TableName>
+          <ImportFromTarget>false</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL />
+        </Tables>
+        <Tables diffgr:id="Tables9" msdata:rowOrder="8" diffgr:hasChanges="inserted">
+          <TableName>LocationPlants</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [PlantID],[PlantDescription], 1 as showInTablet FROM [LocationPlant]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables10" msdata:rowOrder="9" diffgr:hasChanges="inserted">
+          <TableName>Manufacturers</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [ManufacturerID],[ProductDescription],[ComponentClassID],[ComponentTypeID],[ManufacturerCode], 1 as showInTablet FROM [dbo].[Manufacturer]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables11" msdata:rowOrder="10" diffgr:hasChanges="inserted">
+          <TableName>OOSDescriptions</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [OOSCodeID],[OOSCode],[OOSDescription], 1 as showInTablet FROM [dbo].[OutofServiceCode]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables12" msdata:rowOrder="11" diffgr:hasChanges="inserted">
+          <TableName>LDAROptions</TableName>
+          <ImportFromTarget>false</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL />
+        </Tables>
+        <Tables diffgr:id="Tables13" msdata:rowOrder="12" diffgr:hasChanges="inserted">
+          <TableName>PressureServices</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [PressureServiceID],[PressureService],[ServiceDescription], 1 as showInTablet FROM [dbo].[ComponentPressureService]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables14" msdata:rowOrder="13" diffgr:hasChanges="inserted">
+          <TableName>ProcessUnits</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [ProcessUnitID],[UnitDescription],1 as showInTablet FROM [dbo].[ProcessUnit]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables15" msdata:rowOrder="14" diffgr:hasChanges="inserted">
+          <TableName>ComponentReasons</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [ComponentReasonID],[ComponentReason],[ComponentCategoryID],[ReasonDescription], 1 as showInTablet FROM [dbo].[ComponentReason]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables16" msdata:rowOrder="15" diffgr:hasChanges="inserted">
+          <TableName>Regulations</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [RegulationID],[RegulationDescription] FROM [dbo].[Regulation]</SQL>
+        </Tables>
+        <Tables diffgr:id="Tables17" msdata:rowOrder="16" diffgr:hasChanges="inserted">
+          <TableName>Technicians</TableName>
+          <ImportFromTarget>true</ImportFromTarget>
+          <SourceConnectionString />
+          <SourceDatabaseType />
+          <LastRefresh>0001-01-01T00:00:00-06:00</LastRefresh>
+          <SQL>SELECT [LDARUserID] as Id,[LDARUserName] as Name,1 as showInTablet FROM [leakdasv4].[dbo].[LDARUser]</SQL>
+        </Tables>
+      </DocumentElement>
+    </diffgr:diffgram>
+  </TableList>
+  <DestinationTableList>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="DestinationTables" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="DestinationTables">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="SourceTableName" type="xs:string" minOccurs="0" />
+                  <xs:element name="DestinationTableName" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </DestinationTableList>
+  <SQLList>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Views" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="Views">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="ViewName" type="xs:string" minOccurs="0" />
+                  <xs:element name="SQL" type="xs:string" minOccurs="0" />
+                  <xs:element name="IsQCQuery" type="xs:boolean" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </SQLList>
+  <ExtraFieldsList>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="ExtraFields" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="ExtraFields">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="TableName" type="xs:string" minOccurs="0" />
+                  <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                  <xs:element name="FieldType" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </ExtraFieldsList>
+  <InputFieldDefinitions>
+    <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+      <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="InputFieldDefinitions" msdata:UseCurrentLocale="true">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="InputFieldDefinitions">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="FieldName" type="xs:string" minOccurs="0" />
+                  <xs:element name="FieldLabel" type="xs:string" minOccurs="0" />
+                  <xs:element name="DefaultValue" type="xs:string" minOccurs="0" />
+                  <xs:element name="Order" type="xs:int" minOccurs="0" />
+                  <xs:element name="UserEditable" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="CarryForward" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="LimitToList" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="SaveSession" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="ChildField" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="FieldEnabled" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="InspectionField" type="xs:boolean" minOccurs="0" />
+                  <xs:element name="RefreshFromTable" type="xs:string" minOccurs="0" />
+                  <xs:element name="RefreshFromKey" type="xs:string" minOccurs="0" />
+                  <xs:element name="RefreshFromValue" type="xs:string" minOccurs="0" />
+                  <xs:element name="FormXY" type="xs:string" minOccurs="0" />
+                  <xs:element name="PicklistTableName" type="xs:string" minOccurs="0" />
+                  <xs:element name="PicklistTableKey" type="xs:string" minOccurs="0" />
+                  <xs:element name="PicklistTableValue" type="xs:string" minOccurs="0" />
+                  <xs:element name="DataType" type="xs:string" minOccurs="0" />
+                  <xs:element name="ValidateRegEx" type="xs:string" minOccurs="0" />
+                  <xs:element name="ChildRetrievalRegEx" type="xs:string" minOccurs="0" />
+                  <xs:element name="UpdateFromField" type="xs:string" minOccurs="0" />
+                  <xs:element name="MinEntryAreaSize" type="xs:int" minOccurs="0" />
+                  <xs:element name="ControlType" type="xs:string" minOccurs="0" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1" />
+  </InputFieldDefinitions>
+  <RecipeName>TaggedComponent LeakDAS</RecipeName>
+  <RecipeVersion>1.0</RecipeVersion>
+  <RecipeDescription />
+  <InputTableName>ProjectTags</InputTableName>
+  <TargetDatabaseType>SQLServer</TargetDatabaseType>
+  <LastRefresh>0001-01-01T00:00:00</LastRefresh>
+</DatabaseRecipe>

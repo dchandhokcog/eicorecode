@@ -1,0 +1,13 @@
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\EnvInt.Win32.FieldTech.Common.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\EnvInt.Win32.FieldTech.Common.pdb
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\ClosedXML.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\DocumentFormat.OpenXml.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\Ionic.Zip.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\Telerik.WinControls.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\Telerik.WinControls.UI.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\TelerikCommon.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\ClosedXML.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\Telerik.WinControls.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\bin\x64\Debug\Telerik.WinControls.UI.xml
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\obj\x64\Debug\EnvInt.Win32.FieldTech.Common.dll
+D:\eicore\EnvInt.Win32\EnvInt.Win32.FieldTech\EnvInt.Win32.FieldTech.Common\obj\x64\Debug\EnvInt.Win32.FieldTech.Common.pdb

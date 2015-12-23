@@ -1,0 +1,103 @@
+#FormWrap {
+width: auto;
+margin-left: auto;
+margin-right: auto;
+}
+#splitter{
+border-top-style: solid;
+border-top-color: #eee;
+border-top-width: auto;
+padding: 1%
+}
+
+#HeaderTable{
+	width: 100%;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	padding: .2em 0 .2em .5em;
+	text-align: left;
+	color: #4B4B4B;
+}
+
+#HeaderRightSection{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	text-align: right;
+	text-shadow: white 1px 1px 1px;
+}
+
+#ReportTitle{
+	font-weight: bold;
+}
+
+#mainsection{
+    border:1px solid #C2D6F2;
+    border-bottom:2px solid #bbb;
+    border-top:1px solid #ddd;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+	color: white;
+	margin: auto;
+	padding: 3% 3% 3% 3%;
+	box-shadow: 3px 3px 5px 6px #C2D6F2;
+
+}
+
+#Title{
+font-family: sans-serif;
+font-weight: bold;
+font-size: 15px;
+color: white;
+background-color: gray;
+padding: .2em 0 .2em .5em;
+}
+
+#MainTable {
+	border: 1px solid #e3e3e3;
+	background-color: #f2f2f2;
+        width: 100%;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+}
+#MainTable td, #table-2 th {
+	padding: 5px;
+	color: #333;
+}
+#MainTable thead {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	padding: .2em 0 .2em .5em;
+	text-align: left;
+	color: #4B4B4B;
+	background-color: #C8C8C8;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#e3e3e3), color-stop(.6,#B3B3B3));
+	background-image: -moz-linear-gradient(top, #D6D6D6, #B0B0B0, #B3B3B3 90%);
+	border-bottom: solid 1px #999;
+}
+#MainTable th {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	text-shadow: white 1px 1px 1px;
+}
+#MainTable td {
+	line-height: 16px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	border-bottom: 1px solid #fff;
+	border-top: 1px solid #fff;
+	white-space: nowrap;
+	table-layout: auto;
+}
+#MainTable td:hover {
+	background-color: #fff;
+}
+
+p{
+font-family: sans-serif;
+color: blue;
+}

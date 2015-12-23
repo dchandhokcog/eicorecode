@@ -1,0 +1,252 @@
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form}{}\section{Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form Class Reference}
+\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form}\index{Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form@{Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form}}
+
+
+Main Form Class.  
+
+
+Inheritance diagram for Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aef566b5276884629c426e9af18d9b80c}{Main\+Form} ()
+\begin{DoxyCompactList}\small\item\em Main Function of the Home page. Initialize all default settings. \end{DoxyCompactList}\item 
+\hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a1ec1af630dec4fe1c175d63a00df8398}{Main\+Form} (string load\+File)
+\begin{DoxyCompactList}\small\item\em Main Function of the Project. It loads the project file and initiate settings as per the project. \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aebda61218e16629b197f3f734785bc1a}{set\+Import\+Enabled} ()
+\begin{DoxyCompactList}\small\item\em Enable/\+Disable check for Leak\+D\+A\+S Import button \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a3e7e74dd0f0dd33adcdd55d2c8428dfc}{refresh\+Staging} ()
+\begin{DoxyCompactList}\small\item\em Refresh Component on stagin during \char`\"{}\+Add to Staged\char`\"{} and \char`\"{}export to Leak\+D\+A\+S\char`\"{} process \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a8e016a710e8531d2ebd02a2d9eb594b7}{Refresh\+Project} (bool ldar\+Database, bool cad\+Database)
+\begin{DoxyCompactList}\small\item\em Refresh Project and update data with L\+D\+A\+R database and C\+A\+D Database \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_ae29a53b7a0cfdedb8196c046493d5e34}{Refresh\+Project\+Tag\+Data} ()
+\begin{DoxyCompactList}\small\item\em Refresh Tags and Components on Project load \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a9ff21d5993b3edaf7160601db485f56c}{Refresh\+Q\+A\+Q\+C} (bool re\+Run\+Q\+C=false)
+\begin{DoxyCompactList}\small\item\em Perform Q\+A/\+Q\+C process on the component tags \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a71986f082bdc274afd230740a2e3f7c7}{Refresh\+C\+A\+D\+Package} ()
+\begin{DoxyCompactList}\small\item\em Refresh C\+A\+D Package Check for existing C\+A\+D Package and load it. If existing C\+A\+D project not available than create a new package \end{DoxyCompactList}\item 
+void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aad8315e74f9fca1f0b126af137647e81}{Save\+Project\+File\+As} (string project\+File, List$<$ string $>$ drawing\+Package\+Filter, List$<$ string $>$ldar\+Components\+Process\+Unit\+Filter, bool ignore\+Marked\+Drawings=false, List$<$ Tagged\+Component $>$ selected\+Tags=null)
+\begin{DoxyCompactList}\small\item\em This is the main Save function for the project. It is called from many places with different parameters to get the file saved appropriately. It is also used for exporting data, since an export is essentially the same as a project, but with some filters and limitations (Only one Drawing\+Package is allowed A\+N\+D L\+D\+A\+R\+Results may be filtered). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Project\+Data \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a00fee53ce3555bc5b1f2b6fd9ec0261e}{Current\+Project\+Data} = null
+\item 
+static List$<$ Project\+Tags $>$ \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a5f2e0bd0e4ff55c4b48eabe465e6bdd7}{Current\+Project\+Tags} = new List$<$Project\+Tags$>$()
+\item 
+static List$<$ Tagged\+Component $>$ \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_ad2b2abd23a36163cd85036c383d14166}{Collected\+Tags} = new List$<$Tagged\+Component$>$()
+\item 
+static Project\+Tags \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a818352b5631b266edda57799ab3dad42}{import\+Errors} = new Project\+Tags()
+\item 
+static bool \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a696c45fa8a7c89fed82136d1d4d27470}{Current\+Project\+Dirty} = false
+\item 
+static bool \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a7dbf57f63255d8251f75d8f6f9cfdffc}{File\+Message\+Box\+Already\+Showing} = false
+\item 
+static string \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a1daf7b2c6996fc0330b00d8a30116b34}{\+\_\+working\+File} = \char`\"{}\char`\"{}
+\item 
+static L\+D\+A\+R\+Data \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a5028af3b0977c646c45503d9ff37dbd0}{\+\_\+previous\+L\+D\+A\+R\+Data} = new L\+D\+A\+R\+Data()
+\item 
+static List$<$ string $>$ \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a21a074faa0f2ed6863a5fecc6dec3391}{\+\_\+eid\+Import\+List} = new List$<$string$>$()
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \hyperlink{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aecc8ce2c7abb5ca017029d0c922cb86d}{Dispose} (bool disposing)
+\begin{DoxyCompactList}\small\item\em Clean up any resources being used. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Main Form Class. 
+
+ 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aef566b5276884629c426e9af18d9b80c}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Main\+Form@{Main\+Form}}
+\index{Main\+Form@{Main\+Form}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Main\+Form()}]{\setlength{\rightskip}{0pt plus 5cm}Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Main\+Form (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aef566b5276884629c426e9af18d9b80c}
+
+
+Main Function of the Home page. Initialize all default settings. 
+
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a1ec1af630dec4fe1c175d63a00df8398}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Main\+Form@{Main\+Form}}
+\index{Main\+Form@{Main\+Form}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Main\+Form(string load\+File)}]{\setlength{\rightskip}{0pt plus 5cm}Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Main\+Form (
+\begin{DoxyParamCaption}
+\item[{string}]{load\+File}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a1ec1af630dec4fe1c175d63a00df8398}
+
+
+Main Function of the Project. It loads the project file and initiate settings as per the project. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em load\+File} & \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aecc8ce2c7abb5ca017029d0c922cb86d}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Dispose@{Dispose}}
+\index{Dispose@{Dispose}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Dispose(bool disposing)}]{\setlength{\rightskip}{0pt plus 5cm}override void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Dispose (
+\begin{DoxyParamCaption}
+\item[{bool}]{disposing}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aecc8ce2c7abb5ca017029d0c922cb86d}
+
+
+Clean up any resources being used. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em disposing} & true if managed resources should be disposed; otherwise, false.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a71986f082bdc274afd230740a2e3f7c7}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Refresh\+C\+A\+D\+Package@{Refresh\+C\+A\+D\+Package}}
+\index{Refresh\+C\+A\+D\+Package@{Refresh\+C\+A\+D\+Package}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Refresh\+C\+A\+D\+Package()}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Refresh\+C\+A\+D\+Package (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a71986f082bdc274afd230740a2e3f7c7}
+
+
+Refresh C\+A\+D Package Check for existing C\+A\+D Package and load it. If existing C\+A\+D project not available than create a new package 
+
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a8e016a710e8531d2ebd02a2d9eb594b7}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Refresh\+Project@{Refresh\+Project}}
+\index{Refresh\+Project@{Refresh\+Project}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Refresh\+Project(bool ldar\+Database, bool cad\+Database)}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Refresh\+Project (
+\begin{DoxyParamCaption}
+\item[{bool}]{ldar\+Database, }
+\item[{bool}]{cad\+Database}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a8e016a710e8531d2ebd02a2d9eb594b7}
+
+
+Refresh Project and update data with L\+D\+A\+R database and C\+A\+D Database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ldar\+Database} & \\
+\hline
+{\em cad\+Database} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_ae29a53b7a0cfdedb8196c046493d5e34}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Refresh\+Project\+Tag\+Data@{Refresh\+Project\+Tag\+Data}}
+\index{Refresh\+Project\+Tag\+Data@{Refresh\+Project\+Tag\+Data}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Refresh\+Project\+Tag\+Data()}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Refresh\+Project\+Tag\+Data (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_ae29a53b7a0cfdedb8196c046493d5e34}
+
+
+Refresh Tags and Components on Project load 
+
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a9ff21d5993b3edaf7160601db485f56c}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Refresh\+Q\+A\+Q\+C@{Refresh\+Q\+A\+Q\+C}}
+\index{Refresh\+Q\+A\+Q\+C@{Refresh\+Q\+A\+Q\+C}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Refresh\+Q\+A\+Q\+C(bool re\+Run\+Q\+C=false)}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Refresh\+Q\+A\+Q\+C (
+\begin{DoxyParamCaption}
+\item[{bool}]{re\+Run\+Q\+C = {\ttfamily false}}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a9ff21d5993b3edaf7160601db485f56c}
+
+
+Perform Q\+A/\+Q\+C process on the component tags 
+
+
+\begin{DoxyParams}{Parameters}
+{\em re\+Run\+Q\+C} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a3e7e74dd0f0dd33adcdd55d2c8428dfc}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!refresh\+Staging@{refresh\+Staging}}
+\index{refresh\+Staging@{refresh\+Staging}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{refresh\+Staging()}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+refresh\+Staging (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a3e7e74dd0f0dd33adcdd55d2c8428dfc}
+
+
+Refresh Component on stagin during \char`\"{}\+Add to Staged\char`\"{} and \char`\"{}export to Leak\+D\+A\+S\char`\"{} process 
+
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aad8315e74f9fca1f0b126af137647e81}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Save\+Project\+File\+As@{Save\+Project\+File\+As}}
+\index{Save\+Project\+File\+As@{Save\+Project\+File\+As}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Save\+Project\+File\+As(string project\+File, List$<$ string $>$ drawing\+Package\+Filter, List$<$ string $>$ldar\+Components\+Process\+Unit\+Filter, bool ignore\+Marked\+Drawings=false, List$<$ Tagged\+Component $>$ selected\+Tags=null)}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Save\+Project\+File\+As (
+\begin{DoxyParamCaption}
+\item[{string}]{project\+File, }
+\item[{List$<$ string $>$}]{drawing\+Package\+Filter, }
+\item[{List$<$ string $>$}]{ldar\+Components\+Process\+Unit\+Filter, }
+\item[{bool}]{ignore\+Marked\+Drawings = {\ttfamily false}, }
+\item[{List$<$ Tagged\+Component $>$}]{selected\+Tags = {\ttfamily null}}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aad8315e74f9fca1f0b126af137647e81}
+
+
+This is the main Save function for the project. It is called from many places with different parameters to get the file saved appropriately. It is also used for exporting data, since an export is essentially the same as a project, but with some filters and limitations (Only one Drawing\+Package is allowed A\+N\+D L\+D\+A\+R\+Results may be filtered). 
+
+
+\begin{DoxyParams}{Parameters}
+{\em project\+File} & The full path and filename of the location to save the project.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Flag if project was saved sucessfully
+\end{DoxyReturn}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aebda61218e16629b197f3f734785bc1a}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!set\+Import\+Enabled@{set\+Import\+Enabled}}
+\index{set\+Import\+Enabled@{set\+Import\+Enabled}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{set\+Import\+Enabled()}]{\setlength{\rightskip}{0pt plus 5cm}void Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+set\+Import\+Enabled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_aebda61218e16629b197f3f734785bc1a}
+
+
+Enable/\+Disable check for Leak\+D\+A\+S Import button 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a21a074faa0f2ed6863a5fecc6dec3391}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!\+\_\+eid\+Import\+List@{\+\_\+eid\+Import\+List}}
+\index{\+\_\+eid\+Import\+List@{\+\_\+eid\+Import\+List}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{\+\_\+eid\+Import\+List}]{\setlength{\rightskip}{0pt plus 5cm}List$<$string$>$ Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+\_\+eid\+Import\+List = new List$<$string$>$()\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a21a074faa0f2ed6863a5fecc6dec3391}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a5028af3b0977c646c45503d9ff37dbd0}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!\+\_\+previous\+L\+D\+A\+R\+Data@{\+\_\+previous\+L\+D\+A\+R\+Data}}
+\index{\+\_\+previous\+L\+D\+A\+R\+Data@{\+\_\+previous\+L\+D\+A\+R\+Data}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{\+\_\+previous\+L\+D\+A\+R\+Data}]{\setlength{\rightskip}{0pt plus 5cm}L\+D\+A\+R\+Data Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+\_\+previous\+L\+D\+A\+R\+Data = new L\+D\+A\+R\+Data()\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a5028af3b0977c646c45503d9ff37dbd0}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a1daf7b2c6996fc0330b00d8a30116b34}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!\+\_\+working\+File@{\+\_\+working\+File}}
+\index{\+\_\+working\+File@{\+\_\+working\+File}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{\+\_\+working\+File}]{\setlength{\rightskip}{0pt plus 5cm}string Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+\_\+working\+File = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a1daf7b2c6996fc0330b00d8a30116b34}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_ad2b2abd23a36163cd85036c383d14166}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Collected\+Tags@{Collected\+Tags}}
+\index{Collected\+Tags@{Collected\+Tags}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Collected\+Tags}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Tagged\+Component$>$ Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Collected\+Tags = new List$<$Tagged\+Component$>$()\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_ad2b2abd23a36163cd85036c383d14166}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a00fee53ce3555bc5b1f2b6fd9ec0261e}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Current\+Project\+Data@{Current\+Project\+Data}}
+\index{Current\+Project\+Data@{Current\+Project\+Data}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Current\+Project\+Data}]{\setlength{\rightskip}{0pt plus 5cm}Project\+Data Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Current\+Project\+Data = null\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a00fee53ce3555bc5b1f2b6fd9ec0261e}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a696c45fa8a7c89fed82136d1d4d27470}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Current\+Project\+Dirty@{Current\+Project\+Dirty}}
+\index{Current\+Project\+Dirty@{Current\+Project\+Dirty}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Current\+Project\+Dirty}]{\setlength{\rightskip}{0pt plus 5cm}bool Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Current\+Project\+Dirty = false\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a696c45fa8a7c89fed82136d1d4d27470}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a5f2e0bd0e4ff55c4b48eabe465e6bdd7}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!Current\+Project\+Tags@{Current\+Project\+Tags}}
+\index{Current\+Project\+Tags@{Current\+Project\+Tags}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{Current\+Project\+Tags}]{\setlength{\rightskip}{0pt plus 5cm}List$<$Project\+Tags$>$ Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+Current\+Project\+Tags = new List$<$Project\+Tags$>$()\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a5f2e0bd0e4ff55c4b48eabe465e6bdd7}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a7dbf57f63255d8251f75d8f6f9cfdffc}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!File\+Message\+Box\+Already\+Showing@{File\+Message\+Box\+Already\+Showing}}
+\index{File\+Message\+Box\+Already\+Showing@{File\+Message\+Box\+Already\+Showing}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{File\+Message\+Box\+Already\+Showing}]{\setlength{\rightskip}{0pt plus 5cm}bool Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+File\+Message\+Box\+Already\+Showing = false\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a7dbf57f63255d8251f75d8f6f9cfdffc}
+\hypertarget{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a818352b5631b266edda57799ab3dad42}{}\index{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}!import\+Errors@{import\+Errors}}
+\index{import\+Errors@{import\+Errors}!Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form@{Env\+Int\+::\+Win32\+::\+Field\+Tech\+::\+Manager\+::\+Main\+Form}}
+\subsubsection[{import\+Errors}]{\setlength{\rightskip}{0pt plus 5cm}Project\+Tags Env\+Int.\+Win32.\+Field\+Tech.\+Manager.\+Main\+Form.\+import\+Errors = new Project\+Tags()\hspace{0.3cm}{\ttfamily [static]}}\label{class_env_int_1_1_win32_1_1_field_tech_1_1_manager_1_1_main_form_a818352b5631b266edda57799ab3dad42}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_main_form_8cs}{Main\+Form.\+cs}\item 
+\hyperlink{_main_form_8_designer_8cs}{Main\+Form.\+Designer.\+cs}\end{DoxyCompactItemize}

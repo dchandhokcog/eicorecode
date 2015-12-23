@@ -1,0 +1,717 @@
+\hypertarget{class_diff_match_patch_1_1diff__match__patch}{}\section{Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch Class Reference}
+\label{class_diff_match_patch_1_1diff__match__patch}\index{Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_a9c2159023e88643c43cb347d0bea701c}{diff\+\_\+main} (string text1, string text2)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_ae58cc9b88cca48aac06ff3805c7233f2}{diff\+\_\+main} (string text1, string text2, bool checklines)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_ada63eae66f8d9a4fda4686f1749ca0d5}{diff\+\_\+common\+Prefix} (string text1, string text2)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a3bbe3fe977028d955cc1f40ed580a18c}{diff\+\_\+common\+Suffix} (string text1, string text2)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_ab93af4e0d066fe13d123e39721a57acc}{diff\+\_\+cleanup\+Semantic} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_a3bd315cbaf640e09ed8c132db12c6af9}{diff\+\_\+cleanup\+Semantic\+Lossless} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_aa8cdfb2a0adaedc640af8b4dc2aba501}{diff\+\_\+cleanup\+Efficiency} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_ae936e42a312995f16e489727e8023070}{diff\+\_\+cleanup\+Merge} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a6cbbe68de3813f101067be7ef6f039ec}{diff\+\_\+x\+Index} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs, int loc)
+\item 
+string \hyperlink{class_diff_match_patch_1_1diff__match__patch_a7258f7e678266156fac214868c21fb47}{diff\+\_\+pretty\+Html} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+string \hyperlink{class_diff_match_patch_1_1diff__match__patch_adbd27af63950b41ac99288862ee0a5b1}{diff\+\_\+text1} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+string \hyperlink{class_diff_match_patch_1_1diff__match__patch_a9d7cc67be08e07c1ce04602e13617b4e}{diff\+\_\+text2} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a68cef4716b006fac4cedffe9601e464e}{diff\+\_\+levenshtein} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+string \hyperlink{class_diff_match_patch_1_1diff__match__patch_aa5115e1ffbc4f40e7f5931ddf216a387}{diff\+\_\+to\+Delta} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_a497271f4b8a4b7c34dce408ce6e938e8}{diff\+\_\+from\+Delta} (string text1, string delta)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a73baeacb0bd91053fdaba6d01468a871}{match\+\_\+main} (string text, string pattern, int loc)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_aa20d000cd91c74a001c3aedfb55ad466}{patch\+\_\+make} (string text1, string text2)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_aa877394538d8c315c39236bb693f7135}{patch\+\_\+make} (List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_a9e07d5734dade4e14913fb1b74ea1aab}{patch\+\_\+make} (string text1, string text2, List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_a3618b826aba2377f7bad9685047b9d01}{patch\+\_\+make} (string text1, List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_ab4cb9a7a80a39bde48581795ed8e3587}{patch\+\_\+deep\+Copy} (List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ patches)
+\item 
+Object\mbox{[}$\,$\mbox{]} \hyperlink{class_diff_match_patch_1_1diff__match__patch_a414c4b1530b752b720b2fe4f09ad2a36}{patch\+\_\+apply} (List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ patches, string text)
+\item 
+string \hyperlink{class_diff_match_patch_1_1diff__match__patch_a5b926839bcf772516abbf611ac1dad7f}{patch\+\_\+add\+Padding} (List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ patches)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_a55f8ccb535ab8f9ec0cca560554dce82}{patch\+\_\+split\+Max} (List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ patches)
+\item 
+string \hyperlink{class_diff_match_patch_1_1diff__match__patch_aab8f6a5791ce7bc4618586deecb9c000}{patch\+\_\+to\+Text} (List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ patches)
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_patch}{Patch} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_a11cc2a5568c85387bc7ff13ad0630217}{patch\+\_\+from\+Text} (string textline)
+\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static string \hyperlink{class_diff_match_patch_1_1diff__match__patch_a06fcc279bf0708827299fb26a7e3113b}{unescape\+For\+Encode\+Uri\+Compatability} (string str)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_diff_match_patch_1_1diff__match__patch_afcca976b068c3aa46709aba9792ad8af}{Diff\+\_\+\+Timeout} = 1.\+0f
+\item 
+short \hyperlink{class_diff_match_patch_1_1diff__match__patch_a86b7d969b457802022edffcececdbfa4}{Diff\+\_\+\+Edit\+Cost} = 4
+\item 
+float \hyperlink{class_diff_match_patch_1_1diff__match__patch_aae494f263fa95365e8aa32aa8c2533b4}{Match\+\_\+\+Threshold} = 0.\+5f
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a88b5300a87bcb2bde576ec8995654269}{Match\+\_\+\+Distance} = 1000
+\item 
+float \hyperlink{class_diff_match_patch_1_1diff__match__patch_a0594f0d0ff58f846840f79ce6403de9b}{Patch\+\_\+\+Delete\+Threshold} = 0.\+5f
+\item 
+short \hyperlink{class_diff_match_patch_1_1diff__match__patch_ac534df6ede582eae0b48c8d4683b1906}{Patch\+\_\+\+Margin} = 4
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_a9b2a57109300a7ab6df63e67a89a7444}{diff\+\_\+bisect} (string text1, string text2, Date\+Time deadline)
+\item 
+Object\mbox{[}$\,$\mbox{]} \hyperlink{class_diff_match_patch_1_1diff__match__patch_a23490e8a85efeb603b0ba402cebd3832}{diff\+\_\+lines\+To\+Chars} (string text1, string text2)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_a34911313c72c6fd474a0d0ef080ad0fb}{diff\+\_\+chars\+To\+Lines} (I\+Collection$<$ \hyperlink{class_diff_match_patch_1_1_diff}{Diff} $>$ diffs, List$<$ string $>$ line\+Array)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a844105aa12077562c4dd018caf168e75}{diff\+\_\+common\+Overlap} (string text1, string text2)
+\item 
+string\mbox{[}$\,$\mbox{]} \hyperlink{class_diff_match_patch_1_1diff__match__patch_abd865c4f93b686080d2e7360477f0aaa}{diff\+\_\+half\+Match} (string text1, string text2)
+\item 
+int \hyperlink{class_diff_match_patch_1_1diff__match__patch_a5b06852db0d05d7c304127f5607b28ee}{match\+\_\+bitap} (string text, string pattern, int loc)
+\item 
+Dictionary$<$ char, int $>$ \hyperlink{class_diff_match_patch_1_1diff__match__patch_afe674a45ed6c5fb11641632887cb8283}{match\+\_\+alphabet} (string pattern)
+\item 
+void \hyperlink{class_diff_match_patch_1_1diff__match__patch_a27b37fe59fd3e3b1831e9dd44dbdcf01}{patch\+\_\+add\+Context} (\hyperlink{class_diff_match_patch_1_1_patch}{Patch} patch, string text)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class containing the diff, match and patch methods. Also Contains the behaviour settings. 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a9b2a57109300a7ab6df63e67a89a7444}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+bisect@{diff\+\_\+bisect}}
+\index{diff\+\_\+bisect@{diff\+\_\+bisect}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+bisect(string text1, string text2, Date\+Time deadline)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Diff}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+bisect (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2, }
+\item[{Date\+Time}]{deadline}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_a9b2a57109300a7ab6df63e67a89a7444}
+Find the \textquotesingle{}middle snake\textquotesingle{} of a diff, split the problem in two and return the recursively constructed diff. See Myers 1986 paper\+: An O(\+N\+D) Difference Algorithm and Its Variations. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Old string to be diffed. \\
+\hline
+{\em text2} & New string to be diffed. \\
+\hline
+{\em deadline} & Time at which to bail if not yet complete. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a34911313c72c6fd474a0d0ef080ad0fb}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+chars\+To\+Lines@{diff\+\_\+chars\+To\+Lines}}
+\index{diff\+\_\+chars\+To\+Lines@{diff\+\_\+chars\+To\+Lines}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+chars\+To\+Lines(\+I\+Collection$<$ Diff $>$ diffs, List$<$ string $>$ line\+Array)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+chars\+To\+Lines (
+\begin{DoxyParamCaption}
+\item[{I\+Collection$<$ {\bf Diff} $>$}]{diffs, }
+\item[{List$<$ string $>$}]{line\+Array}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_a34911313c72c6fd474a0d0ef080ad0fb}
+Rehydrate the text in a diff from a string of line hashes to real lines of text. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+{\em line\+Array} & List of unique strings. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_aa8cdfb2a0adaedc640af8b4dc2aba501}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+cleanup\+Efficiency@{diff\+\_\+cleanup\+Efficiency}}
+\index{diff\+\_\+cleanup\+Efficiency@{diff\+\_\+cleanup\+Efficiency}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+cleanup\+Efficiency(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+cleanup\+Efficiency (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_aa8cdfb2a0adaedc640af8b4dc2aba501}
+Reduce the number of edits by eliminating operationally trivial equalities. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_ae936e42a312995f16e489727e8023070}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+cleanup\+Merge@{diff\+\_\+cleanup\+Merge}}
+\index{diff\+\_\+cleanup\+Merge@{diff\+\_\+cleanup\+Merge}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+cleanup\+Merge(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+cleanup\+Merge (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_ae936e42a312995f16e489727e8023070}
+Reorder and merge like edit sections. Merge equalities. Any edit section can move as long as it doesn\textquotesingle{}t cross an equality. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_ab93af4e0d066fe13d123e39721a57acc}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+cleanup\+Semantic@{diff\+\_\+cleanup\+Semantic}}
+\index{diff\+\_\+cleanup\+Semantic@{diff\+\_\+cleanup\+Semantic}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+cleanup\+Semantic(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+cleanup\+Semantic (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_ab93af4e0d066fe13d123e39721a57acc}
+Reduce the number of edits by eliminating semantically trivial equalities. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a3bd315cbaf640e09ed8c132db12c6af9}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+cleanup\+Semantic\+Lossless@{diff\+\_\+cleanup\+Semantic\+Lossless}}
+\index{diff\+\_\+cleanup\+Semantic\+Lossless@{diff\+\_\+cleanup\+Semantic\+Lossless}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+cleanup\+Semantic\+Lossless(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+cleanup\+Semantic\+Lossless (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a3bd315cbaf640e09ed8c132db12c6af9}
+Look for single edits surrounded on both sides by equalities which can be shifted sideways to align the edit to a word boundary. e.\+g\+: The c$<$ins$>$at c$<$/ins$>$ame. -\/$>$ The $<$ins$>$cat $<$/ins$>$came. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a844105aa12077562c4dd018caf168e75}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+common\+Overlap@{diff\+\_\+common\+Overlap}}
+\index{diff\+\_\+common\+Overlap@{diff\+\_\+common\+Overlap}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+common\+Overlap(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+common\+Overlap (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_a844105aa12077562c4dd018caf168e75}
+Determine if the suffix of one string is the prefix of another. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & First string. \\
+\hline
+{\em text2} & Second string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of characters common to the end of the first string and the start of the second string. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_ada63eae66f8d9a4fda4686f1749ca0d5}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+common\+Prefix@{diff\+\_\+common\+Prefix}}
+\index{diff\+\_\+common\+Prefix@{diff\+\_\+common\+Prefix}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+common\+Prefix(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+common\+Prefix (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_ada63eae66f8d9a4fda4686f1749ca0d5}
+Determine the common prefix of two strings. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & First string. \\
+\hline
+{\em text2} & Second string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of characters common to the start of each string. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a3bbe3fe977028d955cc1f40ed580a18c}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+common\+Suffix@{diff\+\_\+common\+Suffix}}
+\index{diff\+\_\+common\+Suffix@{diff\+\_\+common\+Suffix}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+common\+Suffix(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+common\+Suffix (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a3bbe3fe977028d955cc1f40ed580a18c}
+Determine the common suffix of two strings. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & First string. \\
+\hline
+{\em text2} & Second string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The number of characters common to the end of each string. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a497271f4b8a4b7c34dce408ce6e938e8}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+from\+Delta@{diff\+\_\+from\+Delta}}
+\index{diff\+\_\+from\+Delta@{diff\+\_\+from\+Delta}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+from\+Delta(string text1, string delta)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Diff}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+from\+Delta (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{delta}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a497271f4b8a4b7c34dce408ce6e938e8}
+Given the original text1, and an encoded string which describes the operations required to transform text1 into text2, com\+Adde the full diff. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Source string for the diff. \\
+\hline
+{\em delta} & Delta text. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects or null if invalid. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & If invalid input. \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_abd865c4f93b686080d2e7360477f0aaa}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+half\+Match@{diff\+\_\+half\+Match}}
+\index{diff\+\_\+half\+Match@{diff\+\_\+half\+Match}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+half\+Match(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}string \mbox{[}$\,$\mbox{]} Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+half\+Match (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_abd865c4f93b686080d2e7360477f0aaa}
+Do the two texts share a Substring which is at least half the length of the longer text? This speedup can produce non-\/minimal diffs. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & First string. \\
+\hline
+{\em text2} & Second string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Five element String array, containing the prefix of text1, the suffix of text1, the prefix of text2, the suffix of text2 and the common middle. Or null if there was no match. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a68cef4716b006fac4cedffe9601e464e}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+levenshtein@{diff\+\_\+levenshtein}}
+\index{diff\+\_\+levenshtein@{diff\+\_\+levenshtein}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+levenshtein(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+levenshtein (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a68cef4716b006fac4cedffe9601e464e}
+Compute the Levenshtein distance; the number of inserted, deleted or substituted characters. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Number of changes. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a23490e8a85efeb603b0ba402cebd3832}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+lines\+To\+Chars@{diff\+\_\+lines\+To\+Chars}}
+\index{diff\+\_\+lines\+To\+Chars@{diff\+\_\+lines\+To\+Chars}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+lines\+To\+Chars(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}Object \mbox{[}$\,$\mbox{]} Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+lines\+To\+Chars (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_a23490e8a85efeb603b0ba402cebd3832}
+Split two texts into a list of strings. Reduce the texts to a string of hashes where each Unicode character represents one line. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & First string. \\
+\hline
+{\em text2} & Second string. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Three element Object array, containing the encoded text1, the encoded text2 and the List of unique strings. The zeroth element of the List of unique strings is intentionally blank. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a9c2159023e88643c43cb347d0bea701c}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+main@{diff\+\_\+main}}
+\index{diff\+\_\+main@{diff\+\_\+main}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+main(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Diff}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+main (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a9c2159023e88643c43cb347d0bea701c}
+Find the differences between two texts. Run a faster, slightly less optimal diff. This method allows the \textquotesingle{}checklines\textquotesingle{} of \hyperlink{class_diff_match_patch_1_1diff__match__patch_a9c2159023e88643c43cb347d0bea701c}{diff\+\_\+main()} to be optional. Most of the time checklines is wanted, so default to true. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Old string to be diffed. \\
+\hline
+{\em text2} & New string to be diffed. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_ae58cc9b88cca48aac06ff3805c7233f2}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+main@{diff\+\_\+main}}
+\index{diff\+\_\+main@{diff\+\_\+main}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+main(string text1, string text2, bool checklines)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Diff}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+main (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2, }
+\item[{bool}]{checklines}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_ae58cc9b88cca48aac06ff3805c7233f2}
+Find the differences between two texts. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Old string to be diffed. \\
+\hline
+{\em text2} & New string to be diffed. \\
+\hline
+{\em checklines} & Speedup flag. If false, then don\textquotesingle{}t run a line-\/level diff first to identify the changed areas. If true, then run a faster slightly less optimal diff. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a7258f7e678266156fac214868c21fb47}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+pretty\+Html@{diff\+\_\+pretty\+Html}}
+\index{diff\+\_\+pretty\+Html@{diff\+\_\+pretty\+Html}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+pretty\+Html(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+pretty\+Html (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a7258f7e678266156fac214868c21fb47}
+Convert a \hyperlink{class_diff_match_patch_1_1_diff}{Diff} list into a pretty H\+T\+M\+L report. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+H\+T\+M\+L representation. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_adbd27af63950b41ac99288862ee0a5b1}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+text1@{diff\+\_\+text1}}
+\index{diff\+\_\+text1@{diff\+\_\+text1}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+text1(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+text1 (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_adbd27af63950b41ac99288862ee0a5b1}
+Compute and return the source text (all equalities and deletions). 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Source text. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a9d7cc67be08e07c1ce04602e13617b4e}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+text2@{diff\+\_\+text2}}
+\index{diff\+\_\+text2@{diff\+\_\+text2}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+text2(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+text2 (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a9d7cc67be08e07c1ce04602e13617b4e}
+Compute and return the destination text (all equalities and insertions). 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Destination text. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_aa5115e1ffbc4f40e7f5931ddf216a387}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+to\+Delta@{diff\+\_\+to\+Delta}}
+\index{diff\+\_\+to\+Delta@{diff\+\_\+to\+Delta}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+to\+Delta(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+to\+Delta (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_aa5115e1ffbc4f40e7f5931ddf216a387}
+Crush the diff into an encoded string which describes the operations required to transform text1 into text2. E.\+g. =3-\/2+ing -\/$>$ Keep 3 chars, delete 2 chars, insert \textquotesingle{}ing\textquotesingle{}. Operations are tab-\/separated. Inserted text is escaped using xx notation. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & Array of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Delta text. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a6cbbe68de3813f101067be7ef6f039ec}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!diff\+\_\+x\+Index@{diff\+\_\+x\+Index}}
+\index{diff\+\_\+x\+Index@{diff\+\_\+x\+Index}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{diff\+\_\+x\+Index(\+List$<$ Diff $>$ diffs, int loc)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+diff\+\_\+x\+Index (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs, }
+\item[{int}]{loc}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a6cbbe68de3813f101067be7ef6f039ec}
+loc is a location in text1, com\+Adde and return the equivalent location in text2. e.\+g. \char`\"{}\+The cat\char`\"{} vs \char`\"{}\+The big cat\char`\"{}, 1-\/$>$1, 5-\/$>$8 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & List of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects. \\
+\hline
+{\em loc} & Location within text1. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Location within text2. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_afe674a45ed6c5fb11641632887cb8283}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!match\+\_\+alphabet@{match\+\_\+alphabet}}
+\index{match\+\_\+alphabet@{match\+\_\+alphabet}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{match\+\_\+alphabet(string pattern)}]{\setlength{\rightskip}{0pt plus 5cm}Dictionary$<$char, int$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+match\+\_\+alphabet (
+\begin{DoxyParamCaption}
+\item[{string}]{pattern}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_afe674a45ed6c5fb11641632887cb8283}
+Initialise the alphabet for the Bitap algorithm. 
+\begin{DoxyParams}{Parameters}
+{\em pattern} & The text to encode. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Hash of character locations. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a5b06852db0d05d7c304127f5607b28ee}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!match\+\_\+bitap@{match\+\_\+bitap}}
+\index{match\+\_\+bitap@{match\+\_\+bitap}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{match\+\_\+bitap(string text, string pattern, int loc)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+match\+\_\+bitap (
+\begin{DoxyParamCaption}
+\item[{string}]{text, }
+\item[{string}]{pattern, }
+\item[{int}]{loc}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_a5b06852db0d05d7c304127f5607b28ee}
+Locate the best instance of \textquotesingle{}pattern\textquotesingle{} in \textquotesingle{}text\textquotesingle{} near \textquotesingle{}loc\textquotesingle{} using the Bitap algorithm. Returns -\/1 if no match found. 
+\begin{DoxyParams}{Parameters}
+{\em text} & The text to search. \\
+\hline
+{\em pattern} & The pattern to search for. \\
+\hline
+{\em loc} & The location to search around. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Best match index or -\/1. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a73baeacb0bd91053fdaba6d01468a871}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!match\+\_\+main@{match\+\_\+main}}
+\index{match\+\_\+main@{match\+\_\+main}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{match\+\_\+main(string text, string pattern, int loc)}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+match\+\_\+main (
+\begin{DoxyParamCaption}
+\item[{string}]{text, }
+\item[{string}]{pattern, }
+\item[{int}]{loc}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a73baeacb0bd91053fdaba6d01468a871}
+Locate the best instance of \textquotesingle{}pattern\textquotesingle{} in \textquotesingle{}text\textquotesingle{} near \textquotesingle{}loc\textquotesingle{}. Returns -\/1 if no match found. 
+\begin{DoxyParams}{Parameters}
+{\em text} & The text to search. \\
+\hline
+{\em pattern} & The pattern to search for. \\
+\hline
+{\em loc} & The location to search around. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Best match index or -\/1. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a27b37fe59fd3e3b1831e9dd44dbdcf01}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+add\+Context@{patch\+\_\+add\+Context}}
+\index{patch\+\_\+add\+Context@{patch\+\_\+add\+Context}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+add\+Context(\+Patch patch, string text)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+add\+Context (
+\begin{DoxyParamCaption}
+\item[{{\bf Patch}}]{patch, }
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{class_diff_match_patch_1_1diff__match__patch_a27b37fe59fd3e3b1831e9dd44dbdcf01}
+Increase the context until it is unique, but don\textquotesingle{}t let the pattern expand beyond Match\+\_\+\+Max\+Bits. 
+\begin{DoxyParams}{Parameters}
+{\em patch} & The patch to grow. \\
+\hline
+{\em text} & Source text. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a5b926839bcf772516abbf611ac1dad7f}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+add\+Padding@{patch\+\_\+add\+Padding}}
+\index{patch\+\_\+add\+Padding@{patch\+\_\+add\+Padding}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+add\+Padding(\+List$<$ Patch $>$ patches)}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+add\+Padding (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Patch} $>$}]{patches}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a5b926839bcf772516abbf611ac1dad7f}
+Add some padding on text start and end so that edges can match something. Intended to be called only from within patch\+\_\+apply. 
+\begin{DoxyParams}{Parameters}
+{\em patches} & Array of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The padding string added to each side. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a414c4b1530b752b720b2fe4f09ad2a36}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+apply@{patch\+\_\+apply}}
+\index{patch\+\_\+apply@{patch\+\_\+apply}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+apply(\+List$<$ Patch $>$ patches, string text)}]{\setlength{\rightskip}{0pt plus 5cm}Object \mbox{[}$\,$\mbox{]} Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+apply (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Patch} $>$}]{patches, }
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a414c4b1530b752b720b2fe4f09ad2a36}
+Merge a set of patches onto the text. Return a patched text, as well as an array of true/false values indicating which patches were applied. 
+\begin{DoxyParams}{Parameters}
+{\em patches} & Array of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects \\
+\hline
+{\em text} & Old text. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Two element Object array, containing the new text and an array of bool values. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_ab4cb9a7a80a39bde48581795ed8e3587}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+deep\+Copy@{patch\+\_\+deep\+Copy}}
+\index{patch\+\_\+deep\+Copy@{patch\+\_\+deep\+Copy}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+deep\+Copy(\+List$<$ Patch $>$ patches)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Patch}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+deep\+Copy (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Patch} $>$}]{patches}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_ab4cb9a7a80a39bde48581795ed8e3587}
+Given an array of patches, return another array that is identical. 
+\begin{DoxyParams}{Parameters}
+{\em patches} & Array of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Array of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a11cc2a5568c85387bc7ff13ad0630217}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+from\+Text@{patch\+\_\+from\+Text}}
+\index{patch\+\_\+from\+Text@{patch\+\_\+from\+Text}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+from\+Text(string textline)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Patch}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+from\+Text (
+\begin{DoxyParamCaption}
+\item[{string}]{textline}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a11cc2a5568c85387bc7ff13ad0630217}
+Parse a textual representation of patches and return a List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\begin{DoxyParams}{Parameters}
+{\em textline} & Text representation of patches. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Exception} & If invalid input. \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_aa20d000cd91c74a001c3aedfb55ad466}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+make@{patch\+\_\+make}}
+\index{patch\+\_\+make@{patch\+\_\+make}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+make(string text1, string text2)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Patch}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+make (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_aa20d000cd91c74a001c3aedfb55ad466}
+Compute a list of patches to turn text1 into text2. A set of diffs will be computed. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Old text. \\
+\hline
+{\em text2} & New text. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_aa877394538d8c315c39236bb693f7135}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+make@{patch\+\_\+make}}
+\index{patch\+\_\+make@{patch\+\_\+make}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+make(\+List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Patch}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+make (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_aa877394538d8c315c39236bb693f7135}
+Compute a list of patches to turn text1 into text2. text1 will be derived from the provided diffs. 
+\begin{DoxyParams}{Parameters}
+{\em diffs} & Array of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects for text1 to text2. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a9e07d5734dade4e14913fb1b74ea1aab}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+make@{patch\+\_\+make}}
+\index{patch\+\_\+make@{patch\+\_\+make}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+make(string text1, string text2, List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Patch}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+make (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{string}]{text2, }
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a9e07d5734dade4e14913fb1b74ea1aab}
+Compute a list of patches to turn text1 into text2. text2 is ignored, diffs are the delta between text1 and text2. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Old text \\
+\hline
+{\em text2} & Ignored. \\
+\hline
+{\em diffs} & Array of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects for text1 to text2. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\end{DoxyReturn}
+\begin{DoxyRefDesc}{Deprecated}
+\item[\hyperlink{deprecated__deprecated000001}{Deprecated}]Prefer \hyperlink{class_diff_match_patch_1_1diff__match__patch_a3618b826aba2377f7bad9685047b9d01}{patch\+\_\+make(string text1, List$<$\+Diff$>$ diffs)}. \end{DoxyRefDesc}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a3618b826aba2377f7bad9685047b9d01}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+make@{patch\+\_\+make}}
+\index{patch\+\_\+make@{patch\+\_\+make}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+make(string text1, List$<$ Diff $>$ diffs)}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Patch}$>$ Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+make (
+\begin{DoxyParamCaption}
+\item[{string}]{text1, }
+\item[{List$<$ {\bf Diff} $>$}]{diffs}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a3618b826aba2377f7bad9685047b9d01}
+Compute a list of patches to turn text1 into text2. text2 is not provided, diffs are the delta between text1 and text2. 
+\begin{DoxyParams}{Parameters}
+{\em text1} & Old text. \\
+\hline
+{\em diffs} & Array of \hyperlink{class_diff_match_patch_1_1_diff}{Diff} objects for text1 to text2. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a55f8ccb535ab8f9ec0cca560554dce82}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+split\+Max@{patch\+\_\+split\+Max}}
+\index{patch\+\_\+split\+Max@{patch\+\_\+split\+Max}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+split\+Max(\+List$<$ Patch $>$ patches)}]{\setlength{\rightskip}{0pt plus 5cm}void Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+split\+Max (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Patch} $>$}]{patches}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_a55f8ccb535ab8f9ec0cca560554dce82}
+Look through the patches and break up any which are longer than the maximum limit of the match algorithm. Intended to be called only from within patch\+\_\+apply. 
+\begin{DoxyParams}{Parameters}
+{\em patches} & List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_aab8f6a5791ce7bc4618586deecb9c000}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!patch\+\_\+to\+Text@{patch\+\_\+to\+Text}}
+\index{patch\+\_\+to\+Text@{patch\+\_\+to\+Text}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{patch\+\_\+to\+Text(\+List$<$ Patch $>$ patches)}]{\setlength{\rightskip}{0pt plus 5cm}string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+patch\+\_\+to\+Text (
+\begin{DoxyParamCaption}
+\item[{List$<$ {\bf Patch} $>$}]{patches}
+\end{DoxyParamCaption}
+)}\label{class_diff_match_patch_1_1diff__match__patch_aab8f6a5791ce7bc4618586deecb9c000}
+Take a list of patches and return a textual representation. 
+\begin{DoxyParams}{Parameters}
+{\em patches} & List of \hyperlink{class_diff_match_patch_1_1_patch}{Patch} objects. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Text representation of patches. 
+\end{DoxyReturn}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a06fcc279bf0708827299fb26a7e3113b}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!unescape\+For\+Encode\+Uri\+Compatability@{unescape\+For\+Encode\+Uri\+Compatability}}
+\index{unescape\+For\+Encode\+Uri\+Compatability@{unescape\+For\+Encode\+Uri\+Compatability}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{unescape\+For\+Encode\+Uri\+Compatability(string str)}]{\setlength{\rightskip}{0pt plus 5cm}static string Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+unescape\+For\+Encode\+Uri\+Compatability (
+\begin{DoxyParamCaption}
+\item[{string}]{str}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_diff_match_patch_1_1diff__match__patch_a06fcc279bf0708827299fb26a7e3113b}
+Unescape selected chars for compatability with Java\+Script\textquotesingle{}s encode\+U\+R\+I. In speed critical applications this could be dropped since the receiving application will certainly decode these fine. Note that this function is case-\/sensitive. Thus \char`\"{}\%3\+F\char`\"{} would not be unescaped. But this is ok because it is only called with the output of Http\+Utility.\+Url\+Encode which returns lowercase hex.
+
+Example\+: \char`\"{}\%3f\char`\"{} -\/$>$ \char`\"{}?\char`\"{}, \char`\"{}\%24\char`\"{} -\/$>$ \char`\"{}\$\char`\"{}, etc.
+
+
+\begin{DoxyParams}{Parameters}
+{\em str} & The string to escape. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The escaped string. 
+\end{DoxyReturn}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a86b7d969b457802022edffcececdbfa4}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!Diff\+\_\+\+Edit\+Cost@{Diff\+\_\+\+Edit\+Cost}}
+\index{Diff\+\_\+\+Edit\+Cost@{Diff\+\_\+\+Edit\+Cost}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{Diff\+\_\+\+Edit\+Cost}]{\setlength{\rightskip}{0pt plus 5cm}short Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+Diff\+\_\+\+Edit\+Cost = 4}\label{class_diff_match_patch_1_1diff__match__patch_a86b7d969b457802022edffcececdbfa4}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_afcca976b068c3aa46709aba9792ad8af}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!Diff\+\_\+\+Timeout@{Diff\+\_\+\+Timeout}}
+\index{Diff\+\_\+\+Timeout@{Diff\+\_\+\+Timeout}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{Diff\+\_\+\+Timeout}]{\setlength{\rightskip}{0pt plus 5cm}float Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+Diff\+\_\+\+Timeout = 1.\+0f}\label{class_diff_match_patch_1_1diff__match__patch_afcca976b068c3aa46709aba9792ad8af}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a88b5300a87bcb2bde576ec8995654269}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!Match\+\_\+\+Distance@{Match\+\_\+\+Distance}}
+\index{Match\+\_\+\+Distance@{Match\+\_\+\+Distance}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{Match\+\_\+\+Distance}]{\setlength{\rightskip}{0pt plus 5cm}int Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+Match\+\_\+\+Distance = 1000}\label{class_diff_match_patch_1_1diff__match__patch_a88b5300a87bcb2bde576ec8995654269}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_aae494f263fa95365e8aa32aa8c2533b4}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!Match\+\_\+\+Threshold@{Match\+\_\+\+Threshold}}
+\index{Match\+\_\+\+Threshold@{Match\+\_\+\+Threshold}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{Match\+\_\+\+Threshold}]{\setlength{\rightskip}{0pt plus 5cm}float Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+Match\+\_\+\+Threshold = 0.\+5f}\label{class_diff_match_patch_1_1diff__match__patch_aae494f263fa95365e8aa32aa8c2533b4}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_a0594f0d0ff58f846840f79ce6403de9b}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!Patch\+\_\+\+Delete\+Threshold@{Patch\+\_\+\+Delete\+Threshold}}
+\index{Patch\+\_\+\+Delete\+Threshold@{Patch\+\_\+\+Delete\+Threshold}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{Patch\+\_\+\+Delete\+Threshold}]{\setlength{\rightskip}{0pt plus 5cm}float Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+Patch\+\_\+\+Delete\+Threshold = 0.\+5f}\label{class_diff_match_patch_1_1diff__match__patch_a0594f0d0ff58f846840f79ce6403de9b}
+\hypertarget{class_diff_match_patch_1_1diff__match__patch_ac534df6ede582eae0b48c8d4683b1906}{}\index{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}!Patch\+\_\+\+Margin@{Patch\+\_\+\+Margin}}
+\index{Patch\+\_\+\+Margin@{Patch\+\_\+\+Margin}!Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch@{Diff\+Match\+Patch\+::diff\+\_\+match\+\_\+patch}}
+\subsubsection[{Patch\+\_\+\+Margin}]{\setlength{\rightskip}{0pt plus 5cm}short Diff\+Match\+Patch.\+diff\+\_\+match\+\_\+patch.\+Patch\+\_\+\+Margin = 4}\label{class_diff_match_patch_1_1diff__match__patch_ac534df6ede582eae0b48c8d4683b1906}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Helper\+Classes/\hyperlink{_diff_match_patch_8cs}{Diff\+Match\+Patch.\+cs}\end{DoxyCompactItemize}

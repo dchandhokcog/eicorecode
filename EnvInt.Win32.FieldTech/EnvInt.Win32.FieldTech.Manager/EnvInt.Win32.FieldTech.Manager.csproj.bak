@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C1A20717-B592-49AB-BE41-880B77AE6842}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EnvInt.Win32.FieldTech.Manager</RootNamespace>
+    <AssemblyName>EnvInt.Win32.FieldTech.Manager</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>cube.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Other\DotNetZip\zip-v1.9\Release\Ionic.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="SD.LLBLGen.Pro.LinqSupportClasses.NET35, Version=3.1.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL" />
+    <Reference Include="SD.LLBLGen.Pro.ORMSupportClasses.NET20, Version=3.1.0.0, Culture=neutral, PublicKeyToken=ca73b74ba4e3ff27, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.WinControls, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+    <Reference Include="Telerik.WinControls.GridView, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="Telerik.WinControls.UI, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e, processorArchitecture=MSIL" />
+    <Reference Include="TelerikCommon, Version=2013.1.220.40, Culture=neutral, PublicKeyToken=5bb2a467cbec794e" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\AutoCADDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\AutoCADDataControl.Designer.cs">
+      <DependentUpon>AutoCADDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ConfigurationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ConfigurationControl.Designer.cs">
+      <DependentUpon>ConfigurationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\LDARDataControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\LDARDataControl.Designer.cs">
+      <DependentUpon>LDARDataControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\ProjectInformationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\ProjectInformationControl.Designer.cs">
+      <DependentUpon>ProjectInformationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\QAQCControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\QAQCControl.Designer.cs">
+      <DependentUpon>QAQCControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\RetagControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\RetagControl.Designer.cs">
+      <DependentUpon>RetagControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\LeakDAS_FTTImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\LeakDAS_FTTImport.Designer.cs">
+      <DependentUpon>LeakDAS_FTTImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\LeakDAS_MOCImport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\LeakDAS_MOCImport.Designer.cs">
+      <DependentUpon>LeakDAS_MOCImport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\NewProjectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\NewProjectDialog.Designer.cs">
+      <DependentUpon>NewProjectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\ProgressDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\ProgressDialog.Designer.cs">
+      <DependentUpon>ProgressDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dialogs\TechnicianDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dialogs\TechnicianDialog.Designer.cs">
+      <DependentUpon>TechnicianDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HelperClasses\DWFParser.cs" />
+    <Compile Include="HelperClasses\Enums.cs" />
+    <Compile Include="HelperClasses\ImportComponentsEventArgs.cs" />
+    <Compile Include="HelperClasses\LeakDAS.cs" />
+    <Compile Include="HelperClasses\PDFParser.cs" />
+    <Compile Include="ImportWizardLeakDAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Controls\AutoCADDataControl.resx">
+      <DependentUpon>AutoCADDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ConfigurationControl.resx">
+      <DependentUpon>ConfigurationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\LDARDataControl.resx">
+      <DependentUpon>LDARDataControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\ProjectInformationControl.resx">
+      <DependentUpon>ProjectInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\QAQCControl.resx">
+      <DependentUpon>QAQCControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\RetagControl.resx">
+      <DependentUpon>RetagControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\LeakDAS_FTTImport.resx">
+      <DependentUpon>LeakDAS_FTTImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\LeakDAS_MOCImport.resx">
+      <DependentUpon>LeakDAS_MOCImport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\NewProjectDialog.resx">
+      <DependentUpon>NewProjectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\ProgressDialog.resx">
+      <DependentUpon>ProgressDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dialogs\TechnicianDialog.resx">
+      <DependentUpon>TechnicianDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cube.ico" />
+    <None Include="Resources\import_from_folder_32.png" />
+    <None Include="Resources\import_green_arrow_256.png" />
+    <None Include="Resources\fttd.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\fttp.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Resources\folder_yellow_save_321.png" />
+    <None Include="Resources\refresh_16.png" />
+    <None Include="Resources\folder_yellow_16.png" />
+    <None Include="Resources\leakdasexport_32.png" />
+    <None Include="Resources\exportconfig_32.png" />
+    <None Include="Resources\folder_yellow_save_32.png" />
+    <None Include="Resources\folder_yellow_add_32.png" />
+    <None Include="Resources\folder_yellow_32.png" />
+    <None Include="Resources\cube_32.png" />
+    <None Include="Resources\EI-Logo-Sitefinity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\EnvInt.Data\EnvInt.Data.DAL\EnvInt.Data.DAL.LeakDAS4\EnvInt.Data.DAL.LeakDAS4.csproj">
+      <Project>{2a2bc51e-8789-4033-8d90-c2f979f84a97}</Project>
+      <Name>EnvInt.Data.DAL.LeakDAS4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\EnvInt.Data\EnvInt.Data.DAL\EnvInt.Data.DAL.LeakDAS4\EnvInt.Data.DAL.LeakDAS4DBSpecific.csproj">
+      <Project>{c39e4619-bf70-488a-ad1c-9e492082223b}</Project>
+      <Name>EnvInt.Data.DAL.LeakDAS4DBSpecific</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Other\GenericParsing\GenericParsing\GenericParsing.csproj">
+      <Project>{add325f8-cbd9-43fe-850d-e2f34d736c9d}</Project>
+      <Name>GenericParsing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Other\ObjectListViewDemo\ObjectListView\ObjectListView2012.csproj">
+      <Project>{18feda0c-d147-4286-b39a-01204808106a}</Project>
+      <Name>ObjectListView2012</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnvInt.Win32.Controls\EnvInt.Win32.Controls.csproj">
+      <Project>{59a199e3-bed1-46ef-ba5e-b0e43b97a61a}</Project>
+      <Name>EnvInt.Win32.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnvInt.Win32.FieldTech.Common\EnvInt.Win32.FieldTech.Common.csproj">
+      <Project>{f19bab73-7707-44ac-b364-daba2e4af104}</Project>
+      <Name>EnvInt.Win32.FieldTech.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
