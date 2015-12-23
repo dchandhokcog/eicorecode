@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://services.env-int.com/services.MainService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="SendError">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="msg" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="source" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="stackTrace" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="currentUser" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="computername" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="customerGuid" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="windowsVersion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="hostSoftwareVersion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="hostSoftwareName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="eiApplicationVersion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="eiApplicationId" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCurrentProductVersion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="platformId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="licenseString" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCurrentProductVersionResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCurrentProductVersionResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCurrentProductBinary">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="productId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="platformId" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="licenseString" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetCurrentProductBinaryResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetCurrentProductBinaryResult" nillable="true" type="xs:base64Binary" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SendAudit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="customerNumber" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="localIp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="machineName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="userName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="projectName" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="moduleList" nillable="true" type="xs:string" />
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="applicationId" type="q1:guid" />
+        <xs:element minOccurs="0" name="applicationVersion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="hostInformation" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
